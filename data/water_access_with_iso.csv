@@ -1,0 +1,2366 @@
+country,Year,Water Access (%),ISO_Code
+Aruba,2012,97.9,ABW
+Afghanistan,2012,54.1,AFG
+Angola,2012,52.0,AGO
+Albania,2012,92.2,ALB
+Andorra,2012,100.0,AND
+UAE,2012,99.9,ARE
+Argentina,2012,98.8,ARG
+Armenia,2012,98.7,ARM
+American Samoa,2012,98.0,ASM
+Antigua and Barbuda,2012,98.4,ATG
+Australia,2012,99.9,AUS
+Austria,2012,100.0,AUT
+Azerbaijan,2012,88.6,AZE
+Burundi,2012,57.7,BDI
+Belgium,2012,100.0,BEL
+Benin,2012,65.0,BEN
+Burkina Faso,2012,52.4,BFA
+Bangladesh,2012,96.9,BGD
+Bulgaria,2012,99.4,BGR
+Bahrain,2012,99.9,BHR
+Bahamas,2012,98.8,BHS
+Bosnia and Herzegovina,2012,96.5,BIH
+Belarus,2012,98.3,BLR
+Belize,2012,95.2,BLZ
+Bermuda,2012,99.9,BMU
+Bolivia,2012,88.7,BOL
+Brazil,2012,97.1,BRA
+Barbados,2012,98.4,BRB
+Brunei,2012,99.9,BRN
+Bhutan,2012,94.8,BTN
+Botswana,2012,85.5,BWA
+Central African Republic,2012,45.5,CAF
+Canada,2012,99.2,CAN
+Switzerland,2012,100.0,CHE
+Chile,2012,98.8,CHL
+China,2012,90.4,CHN
+Cote d'Ivoire,2012,71.9,CIV
+Cameroon,2012,64.3,CMR
+"Congo, Dem. Rep.",2012,36.7,COD
+"Congo, Rep.",2012,68.0,COG
+Colombia,2012,95.3,COL
+Comoros,2012,81.8,COM
+Cape Verde,2012,83.9,CPV
+Costa Rica,2012,98.6,CRI
+Cuba,2012,93.3,CUB
+Cayman Islands,2012,95.9,CYM
+Cyprus,2012,99.8,CYP
+Czech Republic,2012,99.9,CZE
+Germany,2012,100.0,DEU
+Djibouti,2012,75.7,DJI
+Dominica,2012,95.3,DMA
+Denmark,2012,100.0,DNK
+Dominican Republic,2012,94.7,DOM
+Algeria,2012,92.7,DZA
+Ecuador,2012,90.9,ECU
+Egypt,2012,98.6,EGY
+Eritrea,2012,50.3,ERI
+Spain,2012,100.0,ESP
+Estonia,2012,99.4,EST
+Ethiopia,2012,37.0,ETH
+Finland,2012,100.0,FIN
+Fiji,2012,95.1,FJI
+France,2012,100.0,FRA
+Faeroe Islands,2012,100.0,FRO
+"Micronesia, Fed. Sts.",2012,90.4,FSM
+Gabon,2012,83.8,GAB
+Isle of Man,2012,98.7,IMN
+UK,2012,100.0,GBR
+Georgia,2012,94.3,GEO
+Ghana,2012,77.7,GHA
+Gibraltar,2012,100.0,GIB
+Guinea,2012,59.3,GIN
+Gambia,2012,79.7,GMB
+Guinea-Bissau,2012,59.8,GNB
+Equatorial Guinea,2012,62.9,GNQ
+Greece,2012,100.0,GRC
+Grenada,2012,96.0,GRD
+Greenland,2012,100.0,GRL
+Guatemala,2012,91.0,GTM
+Guam,2012,99.7,GUM
+Guyana,2012,92.5,GUY
+"Hong Kong, China",2012,99.7,HKG
+Honduras,2012,91.5,HND
+Croatia,2012,,HRV
+Haiti,2012,63.2,HTI
+Hungary,2012,100.0,HUN
+Indonesia,2012,86.2,IDN
+India,2012,87.4,IND
+Ireland,2012,96.4,IRL
+Iran,2012,96.3,IRN
+Iraq,2012,91.6,IRQ
+Iceland,2012,100.0,ISL
+Israel,2012,100.0,ISR
+Italy,2012,99.9,ITA
+Jamaica,2012,90.5,JAM
+Jordan,2012,98.9,JOR
+Japan,2012,98.8,JPN
+Kazakhstan,2012,94.3,KAZ
+Kenya,2012,56.1,KEN
+Kyrgyz Republic,2012,86.4,KGZ
+Cambodia,2012,68.2,KHM
+Kiribati,2012,69.5,KIR
+St. Kitts and Nevis,2012,98.6,KNA
+South Korea,2012,99.2,KOR
+Kuwait,2012,100.0,KWT
+Lao,2012,71.8,LAO
+Lebanon,2012,89.7,LBN
+Liberia,2012,70.5,LBR
+Libya,2012,94.7,LBY
+St. Lucia,2012,94.2,LCA
+Liechtenstein,2012,100.0,LIE
+Sri Lanka,2012,86.3,LKA
+Lesotho,2012,70.2,LSO
+Lithuania,2012,95.2,LTU
+Luxembourg,2012,100.0,LUX
+Latvia,2012,98.4,LVA
+"Macao, China",2012,100.0,MAC
+St. Martin (French part),2012,100.0,MAF
+Morocco,2012,77.0,MAR
+Monaco,2012,100.0,MCO
+Moldova,2012,87.7,MDA
+Madagascar,2012,45.7,MDG
+Maldives,2012,97.9,MDV
+Mexico,2012,96.6,MEX
+Marshall Islands,2012,87.4,MHL
+North Macedonia,2012,97.3,MKD
+Mali,2012,68.7,MLI
+Malta,2012,100.0,MLT
+Myanmar,2012,66.6,MMR
+Montenegro,2012,96.7,MNE
+Mongolia,2012,76.7,MNG
+Northern Mariana Islands,2012,99.4,MNP
+Mozambique,2012,43.0,MOZ
+Mauritania,2012,60.4,MRT
+Mauritius,2012,99.7,MUS
+Malawi,2012,63.8,MWI
+Malaysia,2012,97.0,MYS
+Namibia,2012,81.8,NAM
+New Caledonia,2012,97.4,NCL
+Niger,2012,44.5,NER
+Nigeria,2012,63.3,NGA
+Nicaragua,2012,81.2,NIC
+Netherlands,2012,100.0,NLD
+Curaçao,2012,99.4,CUW
+Norway,2012,100.0,NOR
+Nepal,2012,86.7,NPL
+Nauru,2012,97.2,NRU
+New Zealand,2012,100.0,NZL
+Oman,2012,88.8,OMN
+Pakistan,2012,89.1,PAK
+Panama,2012,92.4,PAN
+Peru,2012,88.7,PER
+Philippines,2012,90.7,PHL
+Palau,2012,99.5,PLW
+Papua New Guinea,2012,39.9,PNG
+Poland,2012,97.0,POL
+Puerto Rico,2012,99.0,PRI
+North Korea,2012,96.3,PRK
+Portugal,2012,99.2,PRT
+Paraguay,2012,92.4,PRY
+Palestine,2012,95.4,PSE
+French Polynesia,2012,100.0,PYF
+Qatar,2012,99.9,QAT
+Romania,2012,100.0,ROU
+Russia,2012,96.2,RUS
+Rwanda,2012,55.6,RWA
+Saudi Arabia,2012,,SAU
+Sudan,2012,53.7,SDN
+Senegal,2012,74.3,SEN
+Singapore,2012,100.0,SGP
+Solomon Islands,2012,71.8,SLB
+Sierra Leone,2012,53.9,SLE
+El Salvador,2012,91.9,SLV
+San Marino,2012,100.0,SMR
+Somalia,2012,44.0,SOM
+Serbia,2012,92.2,SRB
+South Sudan,2012,41.2,SSD
+Sao Tome and Principe,2012,74.7,STP
+Suriname,2012,94.4,SUR
+Slovak Republic,2012,99.4,SVK
+Slovenia,2012,99.5,SVN
+Sweden,2012,99.6,SWE
+Eswatini,2012,63.9,SWZ
+Sint Maarten (Dutch part),2012,95.4,SXM
+Seychelles,2012,95.4,SYC
+Syria,2012,93.1,SYR
+Turks and Caicos Islands,2012,,TCA
+Chad,2012,45.8,TCD
+Togo,2012,60.0,TGO
+Thailand,2012,98.1,THA
+Tajikistan,2012,72.1,TJK
+Turkmenistan,2012,95.6,TKM
+Timor-Leste,2012,67.9,TLS
+Tonga,2012,98.4,TON
+Trinidad and Tobago,2012,96.5,TTO
+Tunisia,2012,92.6,TUN
+Turkey,2012,95.8,TUR
+Tuvalu,2012,99.1,TUV
+Tanzania,2012,46.4,TZA
+Uganda,2012,43.2,UGA
+Ukraine,2012,94.0,UKR
+Uruguay,2012,98.7,URY
+USA,2012,99.2,USA
+Uzbekistan,2012,92.8,UZB
+St. Vincent and the Grenadines,2012,97.4,VCT
+Venezuela,2012,95.1,VEN
+British Virgin Islands,2012,99.9,VGB
+Virgin Islands (U.S.),2012,98.7,VIR
+Vietnam,2012,90.4,VNM
+Vanuatu,2012,87.1,VUT
+Samoa,2012,89.1,WSM
+Yemen,2012,52.7,YEM
+South Africa,2012,90.5,ZAF
+Zambia,2012,59.8,ZMB
+Zimbabwe,2012,66.5,ZWE
+Aruba,2013,97.9,ABW
+Afghanistan,2013,56.9,AFG
+Angola,2013,52.8,AGO
+Albania,2013,92.6,ALB
+Andorra,2013,100.0,AND
+UAE,2013,99.9,ARE
+Argentina,2013,98.9,ARG
+Armenia,2013,99.0,ARM
+American Samoa,2013,98.2,ASM
+Antigua and Barbuda,2013,98.4,ATG
+Australia,2013,99.9,AUS
+Austria,2013,100.0,AUT
+Azerbaijan,2013,90.0,AZE
+Burundi,2013,58.3,BDI
+Belgium,2013,100.0,BEL
+Benin,2013,65.3,BEN
+Burkina Faso,2013,51.9,BFA
+Bangladesh,2013,97.0,BGD
+Bulgaria,2013,99.3,BGR
+Bahrain,2013,99.9,BHR
+Bahamas,2013,98.8,BHS
+Bosnia and Herzegovina,2013,96.4,BIH
+Belarus,2013,98.3,BLR
+Belize,2013,95.9,BLZ
+Bermuda,2013,99.9,BMU
+Bolivia,2013,89.3,BOL
+Brazil,2013,97.3,BRA
+Barbados,2013,98.5,BRB
+Brunei,2013,99.9,BRN
+Bhutan,2013,95.7,BTN
+Botswana,2013,86.5,BWA
+Central African Republic,2013,44.4,CAF
+Canada,2013,99.2,CAN
+Switzerland,2013,100.0,CHE
+Chile,2013,99.0,CHL
+China,2013,91.2,CHN
+Cote d'Ivoire,2013,72.0,CIV
+Cameroon,2013,64.9,CMR
+"Congo, Dem. Rep.",2013,36.6,COD
+"Congo, Rep.",2013,69.1,COG
+Colombia,2013,95.6,COL
+Comoros,2013,81.0,COM
+Cape Verde,2013,84.3,CPV
+Costa Rica,2013,98.8,CRI
+Cuba,2013,93.4,CUB
+Cayman Islands,2013,95.8,CYM
+Cyprus,2013,99.8,CYP
+Czech Republic,2013,99.9,CZE
+Germany,2013,100.0,DEU
+Djibouti,2013,75.7,DJI
+Dominica,2013,95.4,DMA
+Denmark,2013,100.0,DNK
+Dominican Republic,2013,94.9,DOM
+Algeria,2013,93.0,DZA
+Ecuador,2013,91.7,ECU
+Egypt,2013,98.6,EGY
+Eritrea,2013,50.7,ERI
+Spain,2013,100.0,ESP
+Estonia,2013,99.5,EST
+Ethiopia,2013,38.5,ETH
+Finland,2013,100.0,FIN
+Fiji,2013,95.2,FJI
+France,2013,100.0,FRA
+Faeroe Islands,2013,100.0,FRO
+"Micronesia, Fed. Sts.",2013,90.3,FSM
+Gabon,2013,84.0,GAB
+Isle of Man,2013,98.7,IMN
+UK,2013,100.0,GBR
+Georgia,2013,93.9,GEO
+Ghana,2013,78.8,GHA
+Gibraltar,2013,100.0,GIB
+Guinea,2013,60.5,GIN
+Gambia,2013,80.3,GMB
+Guinea-Bissau,2013,60.1,GNB
+Equatorial Guinea,2013,63.7,GNQ
+Greece,2013,100.0,GRC
+Grenada,2013,95.6,GRD
+Greenland,2013,100.0,GRL
+Guatemala,2013,91.3,GTM
+Guam,2013,99.7,GUM
+Guyana,2013,92.9,GUY
+"Hong Kong, China",2013,99.8,HKG
+Honduras,2013,92.0,HND
+Croatia,2013,,HRV
+Haiti,2013,63.6,HTI
+Hungary,2013,100.0,HUN
+Indonesia,2013,87.0,IDN
+India,2013,88.0,IND
+Ireland,2013,96.4,IRL
+Iran,2013,96.5,IRN
+Iraq,2013,92.5,IRQ
+Iceland,2013,100.0,ISL
+Israel,2013,100.0,ISR
+Italy,2013,99.9,ITA
+Jamaica,2013,90.1,JAM
+Jordan,2013,98.9,JOR
+Japan,2013,98.8,JPN
+Kazakhstan,2013,94.6,KAZ
+Kenya,2013,56.8,KEN
+Kyrgyz Republic,2013,87.0,KGZ
+Cambodia,2013,69.3,KHM
+Kiribati,2013,70.1,KIR
+St. Kitts and Nevis,2013,98.6,KNA
+South Korea,2013,99.3,KOR
+Kuwait,2013,100.0,KWT
+Lao,2013,73.7,LAO
+Lebanon,2013,90.1,LBN
+Liberia,2013,71.0,LBR
+Libya,2013,95.5,LBY
+St. Lucia,2013,94.7,LCA
+Liechtenstein,2013,100.0,LIE
+Sri Lanka,2013,86.6,LKA
+Lesotho,2013,70.5,LSO
+Lithuania,2013,95.7,LTU
+Luxembourg,2013,100.0,LUX
+Latvia,2013,98.4,LVA
+"Macao, China",2013,100.0,MAC
+St. Martin (French part),2013,100.0,MAF
+Morocco,2013,78.0,MAR
+Monaco,2013,100.0,MCO
+Moldova,2013,88.1,MDA
+Madagascar,2013,46.5,MDG
+Maldives,2013,98.2,MDV
+Mexico,2013,96.9,MEX
+Marshall Islands,2013,87.1,MHL
+North Macedonia,2013,97.4,MKD
+Mali,2013,70.3,MLI
+Malta,2013,100.0,MLT
+Myanmar,2013,68.3,MMR
+Montenegro,2013,96.9,MNE
+Mongolia,2013,77.4,MNG
+Northern Mariana Islands,2013,99.6,MNP
+Mozambique,2013,45.0,MOZ
+Mauritania,2013,62.1,MRT
+Mauritius,2013,99.8,MUS
+Malawi,2013,64.6,MWI
+Malaysia,2013,97.0,MYS
+Namibia,2013,82.3,NAM
+New Caledonia,2013,97.7,NCL
+Niger,2013,45.0,NER
+Nigeria,2013,64.9,NGA
+Nicaragua,2013,81.2,NIC
+Netherlands,2013,100.0,NLD
+Curaçao,2013,99.5,CUW
+Norway,2013,100.0,NOR
+Nepal,2013,87.2,NPL
+Nauru,2013,97.1,NRU
+New Zealand,2013,100.0,NZL
+Oman,2013,89.3,OMN
+Pakistan,2013,89.3,PAK
+Panama,2013,92.6,PAN
+Peru,2013,89.3,PER
+Philippines,2013,91.1,PHL
+Palau,2013,99.5,PLW
+Papua New Guinea,2013,40.9,PNG
+Poland,2013,96.2,POL
+Puerto Rico,2013,99.1,PRI
+North Korea,2013,95.9,PRK
+Portugal,2013,99.2,PRT
+Paraguay,2013,93.6,PRY
+Palestine,2013,95.8,PSE
+French Polynesia,2013,100.0,PYF
+Qatar,2013,99.9,QAT
+Romania,2013,100.0,ROU
+Russia,2013,96.3,RUS
+Rwanda,2013,56.6,RWA
+Saudi Arabia,2013,,SAU
+Sudan,2013,54.8,SDN
+Senegal,2013,75.5,SEN
+Singapore,2013,100.0,SGP
+Solomon Islands,2013,70.9,SLB
+Sierra Leone,2013,55.1,SLE
+El Salvador,2013,93.0,SLV
+San Marino,2013,100.0,SMR
+Somalia,2013,45.6,SOM
+Serbia,2013,92.6,SRB
+South Sudan,2013,41.3,SSD
+Sao Tome and Principe,2013,75.2,STP
+Suriname,2013,94.9,SUR
+Slovak Republic,2013,99.5,SVK
+Slovenia,2013,99.5,SVN
+Sweden,2013,99.6,SWE
+Eswatini,2013,64.8,SWZ
+Sint Maarten (Dutch part),2013,95.3,SXM
+Seychelles,2013,95.5,SYC
+Syria,2013,93.1,SYR
+Turks and Caicos Islands,2013,,TCA
+Chad,2013,46.5,TCD
+Togo,2013,61.1,TGO
+Thailand,2013,98.4,THA
+Tajikistan,2013,73.5,TJK
+Turkmenistan,2013,96.3,TKM
+Timor-Leste,2013,70.0,TLS
+Tonga,2013,98.5,TON
+Trinidad and Tobago,2013,97.4,TTO
+Tunisia,2013,93.1,TUN
+Turkey,2013,95.9,TUR
+Tuvalu,2013,99.1,TUV
+Tanzania,2013,47.9,TZA
+Uganda,2013,44.8,UGA
+Ukraine,2013,93.8,UKR
+Uruguay,2013,98.9,URY
+USA,2013,99.3,USA
+Uzbekistan,2013,93.2,UZB
+St. Vincent and the Grenadines,2013,97.5,VCT
+Venezuela,2013,94.9,VEN
+British Virgin Islands,2013,99.9,VGB
+Virgin Islands (U.S.),2013,98.7,VIR
+Vietnam,2013,91.2,VNM
+Vanuatu,2013,87.5,VUT
+Samoa,2013,90.1,WSM
+Yemen,2013,53.7,YEM
+South Africa,2013,90.9,ZAF
+Zambia,2013,60.9,ZMB
+Zimbabwe,2013,66.0,ZWE
+Aruba,2014,97.9,ABW
+Afghanistan,2014,59.6,AFG
+Angola,2014,53.5,AGO
+Albania,2014,93.0,ALB
+Andorra,2014,100.0,AND
+UAE,2014,99.9,ARE
+Argentina,2014,98.9,ARG
+Armenia,2014,99.3,ARM
+American Samoa,2014,98.5,ASM
+Antigua and Barbuda,2014,98.4,ATG
+Australia,2014,100.0,AUS
+Austria,2014,100.0,AUT
+Azerbaijan,2014,91.3,AZE
+Burundi,2014,59.0,BDI
+Belgium,2014,100.0,BEL
+Benin,2014,65.5,BEN
+Burkina Faso,2014,51.4,BFA
+Bangladesh,2014,97.2,BGD
+Bulgaria,2014,99.3,BGR
+Bahrain,2014,99.9,BHR
+Bahamas,2014,98.8,BHS
+Bosnia and Herzegovina,2014,96.2,BIH
+Belarus,2014,98.3,BLR
+Belize,2014,96.5,BLZ
+Bermuda,2014,99.9,BMU
+Bolivia,2014,89.8,BOL
+Brazil,2014,97.6,BRA
+Barbados,2014,98.5,BRB
+Brunei,2014,99.9,BRN
+Bhutan,2014,96.6,BTN
+Botswana,2014,87.5,BWA
+Central African Republic,2014,43.4,CAF
+Canada,2014,99.2,CAN
+Switzerland,2014,100.0,CHE
+Chile,2014,99.3,CHL
+China,2014,92.0,CHN
+Cote d'Ivoire,2014,72.1,CIV
+Cameroon,2014,65.5,CMR
+"Congo, Dem. Rep.",2014,36.4,COD
+"Congo, Rep.",2014,70.1,COG
+Colombia,2014,95.8,COL
+Comoros,2014,80.2,COM
+Cape Verde,2014,84.7,CPV
+Costa Rica,2014,99.0,CRI
+Cuba,2014,93.6,CUB
+Cayman Islands,2014,95.8,CYM
+Cyprus,2014,99.8,CYP
+Czech Republic,2014,99.9,CZE
+Germany,2014,100.0,DEU
+Djibouti,2014,75.7,DJI
+Dominica,2014,95.4,DMA
+Denmark,2014,100.0,DNK
+Dominican Republic,2014,95.2,DOM
+Algeria,2014,93.2,DZA
+Ecuador,2014,92.4,ECU
+Egypt,2014,98.7,EGY
+Eritrea,2014,51.1,ERI
+Spain,2014,99.9,ESP
+Estonia,2014,99.7,EST
+Ethiopia,2014,40.0,ETH
+Finland,2014,100.0,FIN
+Fiji,2014,95.2,FJI
+France,2014,100.0,FRA
+Faeroe Islands,2014,100.0,FRO
+"Micronesia, Fed. Sts.",2014,90.2,FSM
+Gabon,2014,84.1,GAB
+Isle of Man,2014,98.8,IMN
+UK,2014,100.0,GBR
+Georgia,2014,93.5,GEO
+Ghana,2014,79.9,GHA
+Gibraltar,2014,100.0,GIB
+Guinea,2014,61.6,GIN
+Gambia,2014,80.9,GMB
+Guinea-Bissau,2014,60.3,GNB
+Equatorial Guinea,2014,63.9,GNQ
+Greece,2014,100.0,GRC
+Grenada,2014,95.6,GRD
+Greenland,2014,100.0,GRL
+Guatemala,2014,91.7,GTM
+Guam,2014,99.7,GUM
+Guyana,2014,93.2,GUY
+"Hong Kong, China",2014,99.9,HKG
+Honduras,2014,92.4,HND
+Croatia,2014,,HRV
+Haiti,2014,64.1,HTI
+Hungary,2014,100.0,HUN
+Indonesia,2014,87.9,IDN
+India,2014,88.6,IND
+Ireland,2014,96.3,IRL
+Iran,2014,96.6,IRN
+Iraq,2014,93.4,IRQ
+Iceland,2014,100.0,ISL
+Israel,2014,100.0,ISR
+Italy,2014,99.9,ITA
+Jamaica,2014,90.3,JAM
+Jordan,2014,98.9,JOR
+Japan,2014,98.9,JPN
+Kazakhstan,2014,94.8,KAZ
+Kenya,2014,57.5,KEN
+Kyrgyz Republic,2014,87.5,KGZ
+Cambodia,2014,70.4,KHM
+Kiribati,2014,70.8,KIR
+St. Kitts and Nevis,2014,98.6,KNA
+South Korea,2014,99.4,KOR
+Kuwait,2014,100.0,KWT
+Lao,2014,75.6,LAO
+Lebanon,2014,90.6,LBN
+Liberia,2014,71.6,LBR
+Libya,2014,96.4,LBY
+St. Lucia,2014,95.1,LCA
+Liechtenstein,2014,100.0,LIE
+Sri Lanka,2014,86.9,LKA
+Lesotho,2014,70.9,LSO
+Lithuania,2014,96.1,LTU
+Luxembourg,2014,99.9,LUX
+Latvia,2014,98.5,LVA
+"Macao, China",2014,100.0,MAC
+St. Martin (French part),2014,100.0,MAF
+Morocco,2014,79.0,MAR
+Monaco,2014,100.0,MCO
+Moldova,2014,88.5,MDA
+Madagascar,2014,47.3,MDG
+Maldives,2014,98.5,MDV
+Mexico,2014,97.3,MEX
+Marshall Islands,2014,86.9,MHL
+North Macedonia,2014,97.5,MKD
+Mali,2014,71.8,MLI
+Malta,2014,100.0,MLT
+Myanmar,2014,70.0,MMR
+Montenegro,2014,97.1,MNE
+Mongolia,2014,78.0,MNG
+Northern Mariana Islands,2014,99.8,MNP
+Mozambique,2014,47.0,MOZ
+Mauritania,2014,63.8,MRT
+Mauritius,2014,99.8,MUS
+Malawi,2014,65.4,MWI
+Malaysia,2014,97.0,MYS
+Namibia,2014,82.7,NAM
+New Caledonia,2014,97.9,NCL
+Niger,2014,45.4,NER
+Nigeria,2014,66.6,NGA
+Nicaragua,2014,81.3,NIC
+Netherlands,2014,100.0,NLD
+Curaçao,2014,99.5,CUW
+Norway,2014,100.0,NOR
+Nepal,2014,87.8,NPL
+Nauru,2014,97.1,NRU
+New Zealand,2014,100.0,NZL
+Oman,2014,89.8,OMN
+Pakistan,2014,89.4,PAK
+Panama,2014,92.7,PAN
+Peru,2014,89.9,PER
+Philippines,2014,91.6,PHL
+Palau,2014,99.5,PLW
+Papua New Guinea,2014,41.9,PNG
+Poland,2014,95.5,POL
+Puerto Rico,2014,99.3,PRI
+North Korea,2014,95.6,PRK
+Portugal,2014,99.2,PRT
+Paraguay,2014,94.8,PRY
+Palestine,2014,96.1,PSE
+French Polynesia,2014,100.0,PYF
+Qatar,2014,99.9,QAT
+Romania,2014,100.0,ROU
+Russia,2014,96.4,RUS
+Rwanda,2014,57.5,RWA
+Saudi Arabia,2014,,SAU
+Sudan,2014,55.9,SDN
+Senegal,2014,76.7,SEN
+Singapore,2014,100.0,SGP
+Solomon Islands,2014,70.1,SLB
+Sierra Leone,2014,56.2,SLE
+El Salvador,2014,94.2,SLV
+San Marino,2014,100.0,SMR
+Somalia,2014,47.1,SOM
+Serbia,2014,93.0,SRB
+South Sudan,2014,41.3,SSD
+Sao Tome and Principe,2014,75.6,STP
+Suriname,2014,95.3,SUR
+Slovak Republic,2014,99.8,SVK
+Slovenia,2014,99.5,SVN
+Sweden,2014,99.7,SWE
+Eswatini,2014,65.7,SWZ
+Sint Maarten (Dutch part),2014,95.3,SXM
+Seychelles,2014,95.7,SYC
+Syria,2014,93.2,SYR
+Turks and Caicos Islands,2014,,TCA
+Chad,2014,47.1,TCD
+Togo,2014,62.3,TGO
+Thailand,2014,98.7,THA
+Tajikistan,2014,74.9,TJK
+Turkmenistan,2014,97.0,TKM
+Timor-Leste,2014,72.1,TLS
+Tonga,2014,98.5,TON
+Trinidad and Tobago,2014,97.8,TTO
+Tunisia,2014,93.6,TUN
+Turkey,2014,96.1,TUR
+Tuvalu,2014,99.1,TUV
+Tanzania,2014,49.4,TZA
+Uganda,2014,46.3,UGA
+Ukraine,2014,93.3,UKR
+Uruguay,2014,99.0,URY
+USA,2014,99.3,USA
+Uzbekistan,2014,93.6,UZB
+St. Vincent and the Grenadines,2014,97.7,VCT
+Venezuela,2014,94.7,VEN
+British Virgin Islands,2014,99.9,VGB
+Virgin Islands (U.S.),2014,98.7,VIR
+Vietnam,2014,91.9,VNM
+Vanuatu,2014,88.0,VUT
+Samoa,2014,91.2,WSM
+Yemen,2014,54.8,YEM
+South Africa,2014,91.4,ZAF
+Zambia,2014,61.9,ZMB
+Zimbabwe,2014,65.5,ZWE
+Aruba,2015,97.9,ABW
+Afghanistan,2015,62.4,AFG
+Angola,2015,54.3,AGO
+Albania,2015,93.4,ALB
+Andorra,2015,100.0,AND
+UAE,2015,99.9,ARE
+Argentina,2015,99.0,ARG
+Armenia,2015,99.5,ARM
+American Samoa,2015,98.7,ASM
+Antigua and Barbuda,2015,98.4,ATG
+Australia,2015,100.0,AUS
+Austria,2015,100.0,AUT
+Azerbaijan,2015,92.6,AZE
+Burundi,2015,59.6,BDI
+Belgium,2015,100.0,BEL
+Benin,2015,65.8,BEN
+Burkina Faso,2015,50.9,BFA
+Bangladesh,2015,97.3,BGD
+Bulgaria,2015,99.3,BGR
+Bahrain,2015,99.9,BHR
+Bahamas,2015,98.9,BHS
+Bosnia and Herzegovina,2015,96.2,BIH
+Belarus,2015,98.3,BLR
+Belize,2015,97.2,BLZ
+Bermuda,2015,99.9,BMU
+Bolivia,2015,90.4,BOL
+Brazil,2015,97.8,BRA
+Barbados,2015,98.5,BRB
+Brunei,2015,99.9,BRN
+Bhutan,2015,97.5,BTN
+Botswana,2015,88.5,BWA
+Central African Republic,2015,42.3,CAF
+Canada,2015,99.2,CAN
+Switzerland,2015,100.0,CHE
+Chile,2015,99.5,CHL
+China,2015,92.7,CHN
+Cote d'Ivoire,2015,72.2,CIV
+Cameroon,2015,66.0,CMR
+"Congo, Dem. Rep.",2015,36.3,COD
+"Congo, Rep.",2015,71.1,COG
+Colombia,2015,96.1,COL
+Comoros,2015,80.1,COM
+Cape Verde,2015,85.4,CPV
+Costa Rica,2015,99.3,CRI
+Cuba,2015,93.7,CUB
+Cayman Islands,2015,95.8,CYM
+Cyprus,2015,99.8,CYP
+Czech Republic,2015,99.9,CZE
+Germany,2015,100.0,DEU
+Djibouti,2015,75.8,DJI
+Dominica,2015,95.4,DMA
+Denmark,2015,100.0,DNK
+Dominican Republic,2015,95.4,DOM
+Algeria,2015,93.4,DZA
+Ecuador,2015,93.1,ECU
+Egypt,2015,98.7,EGY
+Eritrea,2015,51.5,ERI
+Spain,2015,99.9,ESP
+Estonia,2015,99.9,EST
+Ethiopia,2015,41.5,ETH
+Finland,2015,100.0,FIN
+Fiji,2015,95.2,FJI
+France,2015,100.0,FRA
+Faeroe Islands,2015,100.0,FRO
+"Micronesia, Fed. Sts.",2015,90.2,FSM
+Gabon,2015,84.5,GAB
+Isle of Man,2015,98.9,IMN
+UK,2015,100.0,GBR
+Georgia,2015,93.5,GEO
+Ghana,2015,81.0,GHA
+Gibraltar,2015,100.0,GIB
+Guinea,2015,62.8,GIN
+Gambia,2015,81.5,GMB
+Guinea-Bissau,2015,60.6,GNB
+Equatorial Guinea,2015,64.2,GNQ
+Greece,2015,100.0,GRC
+Grenada,2015,95.6,GRD
+Greenland,2015,100.0,GRL
+Guatemala,2015,92.1,GTM
+Guam,2015,99.7,GUM
+Guyana,2015,93.6,GUY
+"Hong Kong, China",2015,100.0,HKG
+Honduras,2015,92.9,HND
+Croatia,2015,,HRV
+Haiti,2015,64.6,HTI
+Hungary,2015,100.0,HUN
+Indonesia,2015,88.7,IDN
+India,2015,89.2,IND
+Ireland,2015,96.2,IRL
+Iran,2015,96.8,IRN
+Iraq,2015,94.2,IRQ
+Iceland,2015,100.0,ISL
+Israel,2015,100.0,ISR
+Italy,2015,99.9,ITA
+Jamaica,2015,90.4,JAM
+Jordan,2015,98.9,JOR
+Japan,2015,98.9,JPN
+Kazakhstan,2015,95.0,KAZ
+Kenya,2015,58.1,KEN
+Kyrgyz Republic,2015,88.0,KGZ
+Cambodia,2015,71.4,KHM
+Kiribati,2015,71.4,KIR
+St. Kitts and Nevis,2015,98.6,KNA
+South Korea,2015,99.4,KOR
+Kuwait,2015,100.0,KWT
+Lao,2015,77.5,LAO
+Lebanon,2015,91.0,LBN
+Liberia,2015,72.1,LBR
+Libya,2015,97.3,LBY
+St. Lucia,2015,95.6,LCA
+Liechtenstein,2015,100.0,LIE
+Sri Lanka,2015,87.2,LKA
+Lesotho,2015,71.3,LSO
+Lithuania,2015,96.6,LTU
+Luxembourg,2015,99.9,LUX
+Latvia,2015,98.5,LVA
+"Macao, China",2015,100.0,MAC
+St. Martin (French part),2015,100.0,MAF
+Morocco,2015,80.1,MAR
+Monaco,2015,100.0,MCO
+Moldova,2015,89.0,MDA
+Madagascar,2015,48.1,MDG
+Maldives,2015,98.8,MDV
+Mexico,2015,97.7,MEX
+Marshall Islands,2015,86.6,MHL
+North Macedonia,2015,97.5,MKD
+Mali,2015,73.3,MLI
+Malta,2015,100.0,MLT
+Myanmar,2015,71.7,MMR
+Montenegro,2015,97.4,MNE
+Mongolia,2015,78.7,MNG
+Northern Mariana Islands,2015,100.0,MNP
+Mozambique,2015,49.1,MOZ
+Mauritania,2015,65.6,MRT
+Mauritius,2015,99.8,MUS
+Malawi,2015,66.2,MWI
+Malaysia,2015,97.1,MYS
+Namibia,2015,83.2,NAM
+New Caledonia,2015,98.1,NCL
+Niger,2015,45.8,NER
+Nigeria,2015,68.2,NGA
+Nicaragua,2015,81.4,NIC
+Netherlands,2015,100.0,NLD
+Curaçao,2015,99.5,CUW
+Norway,2015,100.0,NOR
+Nepal,2015,88.3,NPL
+Nauru,2015,97.0,NRU
+New Zealand,2015,100.0,NZL
+Oman,2015,90.2,OMN
+Pakistan,2015,89.6,PAK
+Panama,2015,92.9,PAN
+Peru,2015,90.6,PER
+Philippines,2015,92.0,PHL
+Palau,2015,99.5,PLW
+Papua New Guinea,2015,43.0,PNG
+Poland,2015,94.8,POL
+Puerto Rico,2015,99.4,PRI
+North Korea,2015,95.2,PRK
+Portugal,2015,99.2,PRT
+Paraguay,2015,96.0,PRY
+Palestine,2015,96.4,PSE
+French Polynesia,2015,100.0,PYF
+Qatar,2015,99.9,QAT
+Romania,2015,100.0,ROU
+Russia,2015,96.5,RUS
+Rwanda,2015,58.5,RWA
+Saudi Arabia,2015,98.7,SAU
+Sudan,2015,57.1,SDN
+Senegal,2015,77.9,SEN
+Singapore,2015,100.0,SGP
+Solomon Islands,2015,69.3,SLB
+Sierra Leone,2015,57.4,SLE
+El Salvador,2015,95.2,SLV
+San Marino,2015,100.0,SMR
+Somalia,2015,48.7,SOM
+Serbia,2015,93.4,SRB
+South Sudan,2015,41.2,SSD
+Sao Tome and Principe,2015,76.0,STP
+Suriname,2015,95.7,SUR
+Slovak Republic,2015,99.8,SVK
+Slovenia,2015,99.5,SVN
+Sweden,2015,99.7,SWE
+Eswatini,2015,66.5,SWZ
+Sint Maarten (Dutch part),2015,95.3,SXM
+Seychelles,2015,95.8,SYC
+Syria,2015,93.3,SYR
+Turks and Caicos Islands,2015,,TCA
+Chad,2015,47.8,TCD
+Togo,2015,63.4,TGO
+Thailand,2015,98.9,THA
+Tajikistan,2015,76.2,TJK
+Turkmenistan,2015,97.7,TKM
+Timor-Leste,2015,74.2,TLS
+Tonga,2015,98.6,TON
+Trinidad and Tobago,2015,98.1,TTO
+Tunisia,2015,94.2,TUN
+Turkey,2015,96.3,TUR
+Tuvalu,2015,99.1,TUV
+Tanzania,2015,50.8,TZA
+Uganda,2015,47.9,UGA
+Ukraine,2015,93.4,UKR
+Uruguay,2015,99.1,URY
+USA,2015,99.4,USA
+Uzbekistan,2015,94.0,UZB
+St. Vincent and the Grenadines,2015,97.7,VCT
+Venezuela,2015,94.6,VEN
+British Virgin Islands,2015,99.9,VGB
+Virgin Islands (U.S.),2015,98.7,VIR
+Vietnam,2015,92.7,VNM
+Vanuatu,2015,88.4,VUT
+Samoa,2015,92.2,WSM
+Yemen,2015,55.8,YEM
+South Africa,2015,91.8,ZAF
+Zambia,2015,62.9,ZMB
+Zimbabwe,2015,65.0,ZWE
+Aruba,2016,97.9,ABW
+Afghanistan,2016,65.2,AFG
+Angola,2016,55.1,AGO
+Albania,2016,93.8,ALB
+Andorra,2016,100.0,AND
+UAE,2016,100.0,ARE
+Argentina,2016,99.0,ARG
+Armenia,2016,99.5,ARM
+American Samoa,2016,99.0,ASM
+Antigua and Barbuda,2016,98.4,ATG
+Australia,2016,100.0,AUS
+Austria,2016,100.0,AUT
+Azerbaijan,2016,93.4,AZE
+Burundi,2016,60.2,BDI
+Belgium,2016,100.0,BEL
+Benin,2016,66.0,BEN
+Burkina Faso,2016,50.4,BFA
+Bangladesh,2016,97.4,BGD
+Bulgaria,2016,99.2,BGR
+Bahrain,2016,99.9,BHR
+Bahamas,2016,98.9,BHS
+Bosnia and Herzegovina,2016,96.2,BIH
+Belarus,2016,98.3,BLR
+Belize,2016,97.6,BLZ
+Bermuda,2016,99.9,BMU
+Bolivia,2016,90.9,BOL
+Brazil,2016,98.0,BRA
+Barbados,2016,98.5,BRB
+Brunei,2016,99.9,BRN
+Bhutan,2016,98.2,BTN
+Botswana,2016,89.5,BWA
+Central African Republic,2016,41.3,CAF
+Canada,2016,99.2,CAN
+Switzerland,2016,100.0,CHE
+Chile,2016,99.7,CHL
+China,2016,93.4,CHN
+Cote d'Ivoire,2016,72.3,CIV
+Cameroon,2016,66.5,CMR
+"Congo, Dem. Rep.",2016,36.2,COD
+"Congo, Rep.",2016,72.2,COG
+Colombia,2016,96.3,COL
+Comoros,2016,80.1,COM
+Cape Verde,2016,86.2,CPV
+Costa Rica,2016,99.5,CRI
+Cuba,2016,93.8,CUB
+Cayman Islands,2016,95.7,CYM
+Cyprus,2016,99.8,CYP
+Czech Republic,2016,99.9,CZE
+Germany,2016,100.0,DEU
+Djibouti,2016,75.8,DJI
+Dominica,2016,95.4,DMA
+Denmark,2016,100.0,DNK
+Dominican Republic,2016,95.6,DOM
+Algeria,2016,93.6,DZA
+Ecuador,2016,93.8,ECU
+Egypt,2016,98.7,EGY
+Eritrea,2016,51.8,ERI
+Spain,2016,99.9,ESP
+Estonia,2016,99.9,EST
+Ethiopia,2016,43.0,ETH
+Finland,2016,100.0,FIN
+Fiji,2016,95.3,FJI
+France,2016,100.0,FRA
+Faeroe Islands,2016,100.0,FRO
+"Micronesia, Fed. Sts.",2016,90.1,FSM
+Gabon,2016,84.9,GAB
+Isle of Man,2016,99.1,IMN
+UK,2016,100.0,GBR
+Georgia,2016,93.7,GEO
+Ghana,2016,82.0,GHA
+Gibraltar,2016,100.0,GIB
+Guinea,2016,64.0,GIN
+Gambia,2016,82.1,GMB
+Guinea-Bissau,2016,60.8,GNB
+Equatorial Guinea,2016,64.4,GNQ
+Greece,2016,100.0,GRC
+Grenada,2016,95.6,GRD
+Greenland,2016,100.0,GRL
+Guatemala,2016,92.4,GTM
+Guam,2016,99.7,GUM
+Guyana,2016,93.9,GUY
+"Hong Kong, China",2016,100.0,HKG
+Honduras,2016,93.3,HND
+Croatia,2016,,HRV
+Haiti,2016,65.0,HTI
+Hungary,2016,100.0,HUN
+Indonesia,2016,89.5,IDN
+India,2016,89.8,IND
+Ireland,2016,96.1,IRL
+Iran,2016,96.9,IRN
+Iraq,2016,95.1,IRQ
+Iceland,2016,100.0,ISL
+Israel,2016,100.0,ISR
+Italy,2016,99.9,ITA
+Jamaica,2016,90.6,JAM
+Jordan,2016,98.9,JOR
+Japan,2016,99.0,JPN
+Kazakhstan,2016,95.2,KAZ
+Kenya,2016,58.8,KEN
+Kyrgyz Republic,2016,88.6,KGZ
+Cambodia,2016,72.4,KHM
+Kiribati,2016,72.0,KIR
+St. Kitts and Nevis,2016,98.6,KNA
+South Korea,2016,99.5,KOR
+Kuwait,2016,100.0,KWT
+Lao,2016,79.6,LAO
+Lebanon,2016,91.5,LBN
+Liberia,2016,72.6,LBR
+Libya,2016,98.2,LBY
+St. Lucia,2016,96.0,LCA
+Liechtenstein,2016,100.0,LIE
+Sri Lanka,2016,87.5,LKA
+Lesotho,2016,71.7,LSO
+Lithuania,2016,97.1,LTU
+Luxembourg,2016,99.9,LUX
+Latvia,2016,98.6,LVA
+"Macao, China",2016,100.0,MAC
+St. Martin (French part),2016,100.0,MAF
+Morocco,2016,81.0,MAR
+Monaco,2016,100.0,MCO
+Moldova,2016,89.4,MDA
+Madagascar,2016,48.9,MDG
+Maldives,2016,99.1,MDV
+Mexico,2016,98.0,MEX
+Marshall Islands,2016,86.4,MHL
+North Macedonia,2016,97.6,MKD
+Mali,2016,74.8,MLI
+Malta,2016,100.0,MLT
+Myanmar,2016,73.5,MMR
+Montenegro,2016,97.6,MNE
+Mongolia,2016,79.4,MNG
+Northern Mariana Islands,2016,100.0,MNP
+Mozambique,2016,51.2,MOZ
+Mauritania,2016,67.3,MRT
+Mauritius,2016,99.9,MUS
+Malawi,2016,67.0,MWI
+Malaysia,2016,97.1,MYS
+Namibia,2016,83.6,NAM
+New Caledonia,2016,98.4,NCL
+Niger,2016,46.2,NER
+Nigeria,2016,69.8,NGA
+Nicaragua,2016,81.4,NIC
+Netherlands,2016,100.0,NLD
+Curaçao,2016,99.5,CUW
+Norway,2016,100.0,NOR
+Nepal,2016,88.8,NPL
+Nauru,2016,97.0,NRU
+New Zealand,2016,100.0,NZL
+Oman,2016,90.7,OMN
+Pakistan,2016,89.7,PAK
+Panama,2016,93.2,PAN
+Peru,2016,91.2,PER
+Philippines,2016,92.4,PHL
+Palau,2016,99.5,PLW
+Papua New Guinea,2016,44.0,PNG
+Poland,2016,94.0,POL
+Puerto Rico,2016,99.6,PRI
+North Korea,2016,94.9,PRK
+Portugal,2016,99.2,PRT
+Paraguay,2016,97.2,PRY
+Palestine,2016,96.7,PSE
+French Polynesia,2016,100.0,PYF
+Qatar,2016,100.0,QAT
+Romania,2016,100.0,ROU
+Russia,2016,96.5,RUS
+Rwanda,2016,59.4,RWA
+Saudi Arabia,2016,98.7,SAU
+Sudan,2016,58.2,SDN
+Senegal,2016,79.1,SEN
+Singapore,2016,100.0,SGP
+Solomon Islands,2016,68.5,SLB
+Sierra Leone,2016,58.5,SLE
+El Salvador,2016,96.2,SLV
+San Marino,2016,100.0,SMR
+Somalia,2016,50.3,SOM
+Serbia,2016,93.8,SRB
+South Sudan,2016,41.2,SSD
+Sao Tome and Principe,2016,76.4,STP
+Suriname,2016,96.2,SUR
+Slovak Republic,2016,99.8,SVK
+Slovenia,2016,99.5,SVN
+Sweden,2016,99.7,SWE
+Eswatini,2016,67.4,SWZ
+Sint Maarten (Dutch part),2016,95.3,SXM
+Seychelles,2016,95.9,SYC
+Syria,2016,93.5,SYR
+Turks and Caicos Islands,2016,98.7,TCA
+Chad,2016,48.4,TCD
+Togo,2016,64.5,TGO
+Thailand,2016,99.2,THA
+Tajikistan,2016,77.6,TJK
+Turkmenistan,2016,98.3,TKM
+Timor-Leste,2016,76.4,TLS
+Tonga,2016,98.6,TON
+Trinidad and Tobago,2016,98.5,TTO
+Tunisia,2016,94.7,TUN
+Turkey,2016,96.4,TUR
+Tuvalu,2016,99.1,TUV
+Tanzania,2016,52.3,TZA
+Uganda,2016,49.5,UGA
+Ukraine,2016,93.4,UKR
+Uruguay,2016,99.3,URY
+USA,2016,99.5,USA
+Uzbekistan,2016,94.4,UZB
+St. Vincent and the Grenadines,2016,97.7,VCT
+Venezuela,2016,94.4,VEN
+British Virgin Islands,2016,99.9,VGB
+Virgin Islands (U.S.),2016,98.7,VIR
+Vietnam,2016,93.4,VNM
+Vanuatu,2016,88.8,VUT
+Samoa,2016,93.3,WSM
+Yemen,2016,56.8,YEM
+South Africa,2016,92.2,ZAF
+Zambia,2016,63.9,ZMB
+Zimbabwe,2016,64.5,ZWE
+Aruba,2017,,ABW
+Afghanistan,2017,68.0,AFG
+Angola,2017,55.8,AGO
+Albania,2017,94.1,ALB
+Andorra,2017,100.0,AND
+UAE,2017,100.0,ARE
+Argentina,2017,,ARG
+Armenia,2017,99.5,ARM
+American Samoa,2017,99.2,ASM
+Antigua and Barbuda,2017,98.4,ATG
+Australia,2017,100.0,AUS
+Austria,2017,100.0,AUT
+Azerbaijan,2017,94.1,AZE
+Burundi,2017,60.8,BDI
+Belgium,2017,100.0,BEL
+Benin,2017,66.2,BEN
+Burkina Faso,2017,49.9,BFA
+Bangladesh,2017,97.6,BGD
+Bulgaria,2017,99.2,BGR
+Bahrain,2017,99.9,BHR
+Bahamas,2017,98.9,BHS
+Bosnia and Herzegovina,2017,96.1,BIH
+Belarus,2017,98.4,BLR
+Belize,2017,98.0,BLZ
+Bermuda,2017,99.9,BMU
+Bolivia,2017,91.5,BOL
+Brazil,2017,98.5,BRA
+Barbados,2017,98.5,BRB
+Brunei,2017,99.9,BRN
+Bhutan,2017,98.7,BTN
+Botswana,2017,90.4,BWA
+Central African Republic,2017,40.2,CAF
+Canada,2017,99.2,CAN
+Switzerland,2017,100.0,CHE
+Chile,2017,100.0,CHL
+China,2017,94.1,CHN
+Cote d'Ivoire,2017,72.4,CIV
+Cameroon,2017,67.0,CMR
+"Congo, Dem. Rep.",2017,36.0,COD
+"Congo, Rep.",2017,73.2,COG
+Colombia,2017,96.5,COL
+Comoros,2017,80.2,COM
+Cape Verde,2017,87.1,CPV
+Costa Rica,2017,99.7,CRI
+Cuba,2017,93.9,CUB
+Cayman Islands,2017,95.7,CYM
+Cyprus,2017,99.8,CYP
+Czech Republic,2017,99.9,CZE
+Germany,2017,100.0,DEU
+Djibouti,2017,75.9,DJI
+Dominica,2017,95.4,DMA
+Denmark,2017,100.0,DNK
+Dominican Republic,2017,95.8,DOM
+Algeria,2017,93.8,DZA
+Ecuador,2017,94.3,ECU
+Egypt,2017,98.8,EGY
+Eritrea,2017,,ERI
+Spain,2017,99.9,ESP
+Estonia,2017,99.9,EST
+Ethiopia,2017,44.4,ETH
+Finland,2017,100.0,FIN
+Fiji,2017,95.3,FJI
+France,2017,100.0,FRA
+Faeroe Islands,2017,100.0,FRO
+"Micronesia, Fed. Sts.",2017,90.1,FSM
+Gabon,2017,85.3,GAB
+Isle of Man,2017,99.2,IMN
+UK,2017,100.0,GBR
+Georgia,2017,94.0,GEO
+Ghana,2017,83.1,GHA
+Gibraltar,2017,100.0,GIB
+Guinea,2017,65.2,GIN
+Gambia,2017,82.7,GMB
+Guinea-Bissau,2017,61.0,GNB
+Equatorial Guinea,2017,64.7,GNQ
+Greece,2017,100.0,GRC
+Grenada,2017,95.6,GRD
+Greenland,2017,100.0,GRL
+Guatemala,2017,92.8,GTM
+Guam,2017,99.7,GUM
+Guyana,2017,94.3,GUY
+"Hong Kong, China",2017,100.0,HKG
+Honduras,2017,93.8,HND
+Croatia,2017,,HRV
+Haiti,2017,65.5,HTI
+Hungary,2017,100.0,HUN
+Indonesia,2017,90.3,IDN
+India,2017,90.4,IND
+Ireland,2017,96.1,IRL
+Iran,2017,97.1,IRN
+Iraq,2017,96.0,IRQ
+Iceland,2017,100.0,ISL
+Israel,2017,100.0,ISR
+Italy,2017,99.9,ITA
+Jamaica,2017,90.7,JAM
+Jordan,2017,98.9,JOR
+Japan,2017,99.0,JPN
+Kazakhstan,2017,95.4,KAZ
+Kenya,2017,59.5,KEN
+Kyrgyz Republic,2017,89.0,KGZ
+Cambodia,2017,73.4,KHM
+Kiribati,2017,72.6,KIR
+St. Kitts and Nevis,2017,98.6,KNA
+South Korea,2017,99.6,KOR
+Kuwait,2017,100.0,KWT
+Lao,2017,81.5,LAO
+Lebanon,2017,91.9,LBN
+Liberia,2017,73.2,LBR
+Libya,2017,99.0,LBY
+St. Lucia,2017,96.4,LCA
+Liechtenstein,2017,100.0,LIE
+Sri Lanka,2017,87.8,LKA
+Lesotho,2017,72.1,LSO
+Lithuania,2017,97.5,LTU
+Luxembourg,2017,99.9,LUX
+Latvia,2017,98.6,LVA
+"Macao, China",2017,100.0,MAC
+St. Martin (French part),2017,100.0,MAF
+Morocco,2017,82.0,MAR
+Monaco,2017,100.0,MCO
+Moldova,2017,89.8,MDA
+Madagascar,2017,49.6,MDG
+Maldives,2017,99.4,MDV
+Mexico,2017,98.4,MEX
+Marshall Islands,2017,86.2,MHL
+North Macedonia,2017,97.6,MKD
+Mali,2017,76.3,MLI
+Malta,2017,100.0,MLT
+Myanmar,2017,75.3,MMR
+Montenegro,2017,97.9,MNE
+Mongolia,2017,80.1,MNG
+Northern Mariana Islands,2017,100.0,MNP
+Mozambique,2017,53.3,MOZ
+Mauritania,2017,69.1,MRT
+Mauritius,2017,99.9,MUS
+Malawi,2017,67.8,MWI
+Malaysia,2017,97.1,MYS
+Namibia,2017,84.0,NAM
+New Caledonia,2017,98.6,NCL
+Niger,2017,46.6,NER
+Nigeria,2017,71.5,NGA
+Nicaragua,2017,81.4,NIC
+Netherlands,2017,100.0,NLD
+Curaçao,2017,99.5,CUW
+Norway,2017,100.0,NOR
+Nepal,2017,89.3,NPL
+Nauru,2017,97.0,NRU
+New Zealand,2017,100.0,NZL
+Oman,2017,91.1,OMN
+Pakistan,2017,89.9,PAK
+Panama,2017,93.6,PAN
+Peru,2017,91.8,PER
+Philippines,2017,92.8,PHL
+Palau,2017,99.5,PLW
+Papua New Guinea,2017,45.0,PNG
+Poland,2017,93.3,POL
+Puerto Rico,2017,99.7,PRI
+North Korea,2017,94.5,PRK
+Portugal,2017,99.2,PRT
+Paraguay,2017,98.4,PRY
+Palestine,2017,97.0,PSE
+French Polynesia,2017,100.0,PYF
+Qatar,2017,100.0,QAT
+Romania,2017,100.0,ROU
+Russia,2017,96.6,RUS
+Rwanda,2017,60.4,RWA
+Saudi Arabia,2017,98.7,SAU
+Sudan,2017,59.3,SDN
+Senegal,2017,80.3,SEN
+Singapore,2017,100.0,SGP
+Solomon Islands,2017,67.8,SLB
+Sierra Leone,2017,59.7,SLE
+El Salvador,2017,96.8,SLV
+San Marino,2017,100.0,SMR
+Somalia,2017,51.8,SOM
+Serbia,2017,94.1,SRB
+South Sudan,2017,41.1,SSD
+Sao Tome and Principe,2017,76.8,STP
+Suriname,2017,96.6,SUR
+Slovak Republic,2017,99.8,SVK
+Slovenia,2017,99.5,SVN
+Sweden,2017,99.7,SWE
+Eswatini,2017,68.4,SWZ
+Sint Maarten (Dutch part),2017,95.3,SXM
+Seychelles,2017,96.0,SYC
+Syria,2017,93.6,SYR
+Turks and Caicos Islands,2017,98.7,TCA
+Chad,2017,49.1,TCD
+Togo,2017,65.6,TGO
+Thailand,2017,99.4,THA
+Tajikistan,2017,79.0,TJK
+Turkmenistan,2017,99.0,TKM
+Timor-Leste,2017,78.6,TLS
+Tonga,2017,98.6,TON
+Trinidad and Tobago,2017,98.9,TTO
+Tunisia,2017,95.2,TUN
+Turkey,2017,96.6,TUR
+Tuvalu,2017,99.2,TUV
+Tanzania,2017,53.7,TZA
+Uganda,2017,51.1,UGA
+Ukraine,2017,93.4,UKR
+Uruguay,2017,99.4,URY
+USA,2017,99.6,USA
+Uzbekistan,2017,94.8,UZB
+St. Vincent and the Grenadines,2017,97.7,VCT
+Venezuela,2017,94.2,VEN
+British Virgin Islands,2017,99.9,VGB
+Virgin Islands (U.S.),2017,98.7,VIR
+Vietnam,2017,94.1,VNM
+Vanuatu,2017,89.2,VUT
+Samoa,2017,94.3,WSM
+Yemen,2017,57.8,YEM
+South Africa,2017,92.6,ZAF
+Zambia,2017,64.9,ZMB
+Zimbabwe,2017,64.0,ZWE
+Aruba,2018,,ABW
+Afghanistan,2018,70.9,AFG
+Angola,2018,56.6,AGO
+Albania,2018,94.4,ALB
+Andorra,2018,100.0,AND
+UAE,2018,100.0,ARE
+Argentina,2018,,ARG
+Armenia,2018,99.9,ARM
+American Samoa,2018,99.2,ASM
+Antigua and Barbuda,2018,98.4,ATG
+Australia,2018,100.0,AUS
+Austria,2018,100.0,AUT
+Azerbaijan,2018,94.9,AZE
+Burundi,2018,61.5,BDI
+Belgium,2018,100.0,BEL
+Benin,2018,66.5,BEN
+Burkina Faso,2018,49.5,BFA
+Bangladesh,2018,97.7,BGD
+Bulgaria,2018,99.2,BGR
+Bahrain,2018,99.9,BHR
+Bahamas,2018,98.9,BHS
+Bosnia and Herzegovina,2018,96.1,BIH
+Belarus,2018,98.4,BLR
+Belize,2018,98.4,BLZ
+Bermuda,2018,99.9,BMU
+Bolivia,2018,92.0,BOL
+Brazil,2018,98.7,BRA
+Barbados,2018,98.5,BRB
+Brunei,2018,99.9,BRN
+Bhutan,2018,98.8,BTN
+Botswana,2018,91.3,BWA
+Central African Republic,2018,39.2,CAF
+Canada,2018,99.2,CAN
+Switzerland,2018,100.0,CHE
+Chile,2018,100.0,CHL
+China,2018,94.7,CHN
+Cote d'Ivoire,2018,72.5,CIV
+Cameroon,2018,67.5,CMR
+"Congo, Dem. Rep.",2018,35.8,COD
+"Congo, Rep.",2018,73.4,COG
+Colombia,2018,96.7,COL
+Comoros,2018,80.2,COM
+Cape Verde,2018,88.0,CPV
+Costa Rica,2018,99.8,CRI
+Cuba,2018,94.0,CUB
+Cayman Islands,2018,95.6,CYM
+Cyprus,2018,99.8,CYP
+Czech Republic,2018,99.9,CZE
+Germany,2018,100.0,DEU
+Djibouti,2018,75.9,DJI
+Dominica,2018,,DMA
+Denmark,2018,100.0,DNK
+Dominican Republic,2018,96.0,DOM
+Algeria,2018,94.0,DZA
+Ecuador,2018,94.7,ECU
+Egypt,2018,98.8,EGY
+Eritrea,2018,,ERI
+Spain,2018,99.9,ESP
+Estonia,2018,100.0,EST
+Ethiopia,2018,45.8,ETH
+Finland,2018,100.0,FIN
+Fiji,2018,95.3,FJI
+France,2018,100.0,FRA
+Faeroe Islands,2018,100.0,FRO
+"Micronesia, Fed. Sts.",2018,90.1,FSM
+Gabon,2018,85.6,GAB
+Isle of Man,2018,99.3,IMN
+UK,2018,100.0,GBR
+Georgia,2018,94.2,GEO
+Ghana,2018,84.2,GHA
+Gibraltar,2018,100.0,GIB
+Guinea,2018,66.4,GIN
+Gambia,2018,83.3,GMB
+Guinea-Bissau,2018,61.2,GNB
+Equatorial Guinea,2018,,GNQ
+Greece,2018,100.0,GRC
+Grenada,2018,,GRD
+Greenland,2018,100.0,GRL
+Guatemala,2018,93.1,GTM
+Guam,2018,99.7,GUM
+Guyana,2018,94.6,GUY
+"Hong Kong, China",2018,100.0,HKG
+Honduras,2018,94.2,HND
+Croatia,2018,,HRV
+Haiti,2018,65.9,HTI
+Hungary,2018,100.0,HUN
+Indonesia,2018,91.0,IDN
+India,2018,91.0,IND
+Ireland,2018,96.0,IRL
+Iran,2018,97.2,IRN
+Iraq,2018,96.9,IRQ
+Iceland,2018,100.0,ISL
+Israel,2018,100.0,ISR
+Italy,2018,99.9,ITA
+Jamaica,2018,90.9,JAM
+Jordan,2018,98.9,JOR
+Japan,2018,99.0,JPN
+Kazakhstan,2018,95.4,KAZ
+Kenya,2018,60.2,KEN
+Kyrgyz Republic,2018,89.4,KGZ
+Cambodia,2018,74.4,KHM
+Kiribati,2018,73.2,KIR
+St. Kitts and Nevis,2018,,KNA
+South Korea,2018,99.7,KOR
+Kuwait,2018,100.0,KWT
+Lao,2018,83.3,LAO
+Lebanon,2018,92.3,LBN
+Liberia,2018,73.7,LBR
+Libya,2018,99.9,LBY
+St. Lucia,2018,96.9,LCA
+Liechtenstein,2018,100.0,LIE
+Sri Lanka,2018,88.1,LKA
+Lesotho,2018,72.5,LSO
+Lithuania,2018,98.0,LTU
+Luxembourg,2018,99.9,LUX
+Latvia,2018,98.7,LVA
+"Macao, China",2018,100.0,MAC
+St. Martin (French part),2018,99.9,MAF
+Morocco,2018,84.0,MAR
+Monaco,2018,100.0,MCO
+Moldova,2018,90.3,MDA
+Madagascar,2018,50.4,MDG
+Maldives,2018,99.5,MDV
+Mexico,2018,98.8,MEX
+Marshall Islands,2018,85.9,MHL
+North Macedonia,2018,97.7,MKD
+Mali,2018,77.8,MLI
+Malta,2018,100.0,MLT
+Myanmar,2018,77.1,MMR
+Montenegro,2018,98.5,MNE
+Mongolia,2018,80.8,MNG
+Northern Mariana Islands,2018,100.0,MNP
+Mozambique,2018,55.4,MOZ
+Mauritania,2018,70.8,MRT
+Mauritius,2018,99.9,MUS
+Malawi,2018,68.7,MWI
+Malaysia,2018,97.1,MYS
+Namibia,2018,84.4,NAM
+New Caledonia,2018,98.8,NCL
+Niger,2018,47.0,NER
+Nigeria,2018,73.1,NGA
+Nicaragua,2018,81.5,NIC
+Netherlands,2018,100.0,NLD
+Curaçao,2018,,CUW
+Norway,2018,100.0,NOR
+Nepal,2018,89.8,NPL
+Nauru,2018,97.0,NRU
+New Zealand,2018,100.0,NZL
+Oman,2018,91.5,OMN
+Pakistan,2018,90.0,PAK
+Panama,2018,93.9,PAN
+Peru,2018,92.4,PER
+Philippines,2018,93.2,PHL
+Palau,2018,99.5,PLW
+Papua New Guinea,2018,46.0,PNG
+Poland,2018,92.6,POL
+Puerto Rico,2018,99.9,PRI
+North Korea,2018,94.2,PRK
+Portugal,2018,99.2,PRT
+Paraguay,2018,99.5,PRY
+Palestine,2018,97.3,PSE
+French Polynesia,2018,100.0,PYF
+Qatar,2018,100.0,QAT
+Romania,2018,100.0,ROU
+Russia,2018,96.7,RUS
+Rwanda,2018,61.4,RWA
+Saudi Arabia,2018,98.7,SAU
+Sudan,2018,60.5,SDN
+Senegal,2018,81.5,SEN
+Singapore,2018,100.0,SGP
+Solomon Islands,2018,67.0,SLB
+Sierra Leone,2018,60.8,SLE
+El Salvador,2018,97.4,SLV
+San Marino,2018,100.0,SMR
+Somalia,2018,53.4,SOM
+Serbia,2018,94.5,SRB
+South Sudan,2018,41.0,SSD
+Sao Tome and Principe,2018,77.2,STP
+Suriname,2018,97.1,SUR
+Slovak Republic,2018,99.8,SVK
+Slovenia,2018,99.5,SVN
+Sweden,2018,99.7,SWE
+Eswatini,2018,69.4,SWZ
+Sint Maarten (Dutch part),2018,,SXM
+Seychelles,2018,96.2,SYC
+Syria,2018,93.7,SYR
+Turks and Caicos Islands,2018,98.7,TCA
+Chad,2018,49.8,TCD
+Togo,2018,66.7,TGO
+Thailand,2018,99.5,THA
+Tajikistan,2018,80.4,TJK
+Turkmenistan,2018,99.3,TKM
+Timor-Leste,2018,80.8,TLS
+Tonga,2018,98.7,TON
+Trinidad and Tobago,2018,98.9,TTO
+Tunisia,2018,95.7,TUN
+Turkey,2018,96.7,TUR
+Tuvalu,2018,99.2,TUV
+Tanzania,2018,55.1,TZA
+Uganda,2018,52.7,UGA
+Ukraine,2018,93.5,UKR
+Uruguay,2018,99.5,URY
+USA,2018,99.7,USA
+Uzbekistan,2018,95.2,UZB
+St. Vincent and the Grenadines,2018,97.7,VCT
+Venezuela,2018,94.0,VEN
+British Virgin Islands,2018,99.9,VGB
+Virgin Islands (U.S.),2018,98.7,VIR
+Vietnam,2018,95.2,VNM
+Vanuatu,2018,89.6,VUT
+Samoa,2018,95.4,WSM
+Yemen,2018,58.8,YEM
+South Africa,2018,93.0,ZAF
+Zambia,2018,65.9,ZMB
+Zimbabwe,2018,63.5,ZWE
+Aruba,2019,,ABW
+Afghanistan,2019,73.8,AFG
+Angola,2019,56.9,AGO
+Albania,2019,94.8,ALB
+Andorra,2019,100.0,AND
+UAE,2019,100.0,ARE
+Argentina,2019,,ARG
+Armenia,2019,99.9,ARM
+American Samoa,2019,99.2,ASM
+Antigua and Barbuda,2019,98.4,ATG
+Australia,2019,100.0,AUS
+Austria,2019,100.0,AUT
+Azerbaijan,2019,95.7,AZE
+Burundi,2019,62.1,BDI
+Belgium,2019,100.0,BEL
+Benin,2019,66.7,BEN
+Burkina Faso,2019,49.0,BFA
+Bangladesh,2019,97.8,BGD
+Bulgaria,2019,99.1,BGR
+Bahrain,2019,99.9,BHR
+Bahamas,2019,98.9,BHS
+Bosnia and Herzegovina,2019,96.1,BIH
+Belarus,2019,98.4,BLR
+Belize,2019,98.4,BLZ
+Bermuda,2019,99.9,BMU
+Bolivia,2019,92.6,BOL
+Brazil,2019,98.9,BRA
+Barbados,2019,98.5,BRB
+Brunei,2019,99.9,BRN
+Bhutan,2019,98.9,BTN
+Botswana,2019,92.2,BWA
+Central African Republic,2019,38.2,CAF
+Canada,2019,99.2,CAN
+Switzerland,2019,100.0,CHE
+Chile,2019,100.0,CHL
+China,2019,95.3,CHN
+Cote d'Ivoire,2019,72.5,CIV
+Cameroon,2019,68.0,CMR
+"Congo, Dem. Rep.",2019,35.7,COD
+"Congo, Rep.",2019,73.6,COG
+Colombia,2019,96.9,COL
+Comoros,2019,80.2,COM
+Cape Verde,2019,88.6,CPV
+Costa Rica,2019,99.8,CRI
+Cuba,2019,94.1,CUB
+Cayman Islands,2019,95.6,CYM
+Cyprus,2019,99.8,CYP
+Czech Republic,2019,99.9,CZE
+Germany,2019,100.0,DEU
+Djibouti,2019,76.0,DJI
+Dominica,2019,,DMA
+Denmark,2019,100.0,DNK
+Dominican Republic,2019,96.1,DOM
+Algeria,2019,94.2,DZA
+Ecuador,2019,95.0,ECU
+Egypt,2019,98.8,EGY
+Eritrea,2019,,ERI
+Spain,2019,99.9,ESP
+Estonia,2019,100.0,EST
+Ethiopia,2019,47.3,ETH
+Finland,2019,100.0,FIN
+Fiji,2019,95.4,FJI
+France,2019,100.0,FRA
+Faeroe Islands,2019,100.0,FRO
+"Micronesia, Fed. Sts.",2019,90.1,FSM
+Gabon,2019,86.0,GAB
+Isle of Man,2019,99.5,IMN
+UK,2019,100.0,GBR
+Georgia,2019,94.4,GEO
+Ghana,2019,85.2,GHA
+Gibraltar,2019,100.0,GIB
+Guinea,2019,67.7,GIN
+Gambia,2019,83.9,GMB
+Guinea-Bissau,2019,61.4,GNB
+Equatorial Guinea,2019,,GNQ
+Greece,2019,100.0,GRC
+Grenada,2019,,GRD
+Greenland,2019,100.0,GRL
+Guatemala,2019,93.5,GTM
+Guam,2019,99.7,GUM
+Guyana,2019,94.9,GUY
+"Hong Kong, China",2019,100.0,HKG
+Honduras,2019,94.6,HND
+Croatia,2019,,HRV
+Haiti,2019,66.3,HTI
+Hungary,2019,100.0,HUN
+Indonesia,2019,91.8,IDN
+India,2019,91.6,IND
+Ireland,2019,96.0,IRL
+Iran,2019,97.3,IRN
+Iraq,2019,97.8,IRQ
+Iceland,2019,100.0,ISL
+Israel,2019,100.0,ISR
+Italy,2019,99.9,ITA
+Jamaica,2019,91.0,JAM
+Jordan,2019,99.0,JOR
+Japan,2019,99.1,JPN
+Kazakhstan,2019,95.4,KAZ
+Kenya,2019,60.9,KEN
+Kyrgyz Republic,2019,89.9,KGZ
+Cambodia,2019,75.3,KHM
+Kiribati,2019,73.7,KIR
+St. Kitts and Nevis,2019,,KNA
+South Korea,2019,99.8,KOR
+Kuwait,2019,100.0,KWT
+Lao,2019,85.1,LAO
+Lebanon,2019,92.6,LBN
+Liberia,2019,74.2,LBR
+Libya,2019,99.9,LBY
+St. Lucia,2019,96.9,LCA
+Liechtenstein,2019,100.0,LIE
+Sri Lanka,2019,88.4,LKA
+Lesotho,2019,72.9,LSO
+Lithuania,2019,98.0,LTU
+Luxembourg,2019,99.9,LUX
+Latvia,2019,98.7,LVA
+"Macao, China",2019,100.0,MAC
+St. Martin (French part),2019,99.9,MAF
+Morocco,2019,85.0,MAR
+Monaco,2019,100.0,MCO
+Moldova,2019,90.7,MDA
+Madagascar,2019,51.2,MDG
+Maldives,2019,99.5,MDV
+Mexico,2019,99.1,MEX
+Marshall Islands,2019,85.7,MHL
+North Macedonia,2019,97.7,MKD
+Mali,2019,79.3,MLI
+Malta,2019,100.0,MLT
+Myanmar,2019,78.9,MMR
+Montenegro,2019,98.7,MNE
+Mongolia,2019,81.4,MNG
+Northern Mariana Islands,2019,100.0,MNP
+Mozambique,2019,57.6,MOZ
+Mauritania,2019,72.5,MRT
+Mauritius,2019,100.0,MUS
+Malawi,2019,69.5,MWI
+Malaysia,2019,97.1,MYS
+Namibia,2019,84.8,NAM
+New Caledonia,2019,99.1,NCL
+Niger,2019,47.4,NER
+Nigeria,2019,74.7,NGA
+Nicaragua,2019,81.6,NIC
+Netherlands,2019,100.0,NLD
+Curaçao,2019,,CUW
+Norway,2019,100.0,NOR
+Nepal,2019,90.3,NPL
+Nauru,2019,97.0,NRU
+New Zealand,2019,100.0,NZL
+Oman,2019,91.9,OMN
+Pakistan,2019,90.2,PAK
+Panama,2019,94.2,PAN
+Peru,2019,93.0,PER
+Philippines,2019,93.6,PHL
+Palau,2019,99.6,PLW
+Papua New Guinea,2019,47.1,PNG
+Poland,2019,91.8,POL
+Puerto Rico,2019,100.0,PRI
+North Korea,2019,93.8,PRK
+Portugal,2019,99.2,PRT
+Paraguay,2019,99.6,PRY
+Palestine,2019,97.6,PSE
+French Polynesia,2019,100.0,PYF
+Qatar,2019,100.0,QAT
+Romania,2019,100.0,ROU
+Russia,2019,96.8,RUS
+Rwanda,2019,62.4,RWA
+Saudi Arabia,2019,98.7,SAU
+Sudan,2019,61.6,SDN
+Senegal,2019,82.7,SEN
+Singapore,2019,100.0,SGP
+Solomon Islands,2019,67.2,SLB
+Sierra Leone,2019,61.9,SLE
+El Salvador,2019,97.8,SLV
+San Marino,2019,100.0,SMR
+Somalia,2019,54.9,SOM
+Serbia,2019,94.9,SRB
+South Sudan,2019,40.8,SSD
+Sao Tome and Principe,2019,77.3,STP
+Suriname,2019,97.5,SUR
+Slovak Republic,2019,99.8,SVK
+Slovenia,2019,99.5,SVN
+Sweden,2019,99.7,SWE
+Eswatini,2019,70.4,SWZ
+Sint Maarten (Dutch part),2019,,SXM
+Seychelles,2019,96.3,SYC
+Syria,2019,93.9,SYR
+Turks and Caicos Islands,2019,98.8,TCA
+Chad,2019,50.5,TCD
+Togo,2019,67.8,TGO
+Thailand,2019,100.0,THA
+Tajikistan,2019,81.8,TJK
+Turkmenistan,2019,99.8,TKM
+Timor-Leste,2019,82.4,TLS
+Tonga,2019,98.7,TON
+Trinidad and Tobago,2019,98.9,TTO
+Tunisia,2019,96.2,TUN
+Turkey,2019,96.9,TUR
+Tuvalu,2019,99.2,TUV
+Tanzania,2019,56.6,TZA
+Uganda,2019,54.3,UGA
+Ukraine,2019,93.5,UKR
+Uruguay,2019,99.5,URY
+USA,2019,99.7,USA
+Uzbekistan,2019,95.6,UZB
+St. Vincent and the Grenadines,2019,,VCT
+Venezuela,2019,93.9,VEN
+British Virgin Islands,2019,99.9,VGB
+Virgin Islands (U.S.),2019,98.7,VIR
+Vietnam,2019,96.0,VNM
+Vanuatu,2019,90.1,VUT
+Samoa,2019,96.4,WSM
+Yemen,2019,59.7,YEM
+South Africa,2019,93.4,ZAF
+Zambia,2019,66.9,ZMB
+Zimbabwe,2019,63.1,ZWE
+Aruba,2020,,ABW
+Afghanistan,2020,76.7,AFG
+Angola,2020,57.2,AGO
+Albania,2020,95.1,ALB
+Andorra,2020,100.0,AND
+UAE,2020,100.0,ARE
+Argentina,2020,,ARG
+Armenia,2020,99.9,ARM
+American Samoa,2020,99.2,ASM
+Antigua and Barbuda,2020,98.4,ATG
+Australia,2020,100.0,AUS
+Austria,2020,100.0,AUT
+Azerbaijan,2020,96.4,AZE
+Burundi,2020,62.2,BDI
+Belgium,2020,100.0,BEL
+Benin,2020,66.9,BEN
+Burkina Faso,2020,48.5,BFA
+Bangladesh,2020,97.9,BGD
+Bulgaria,2020,99.1,BGR
+Bahrain,2020,99.9,BHR
+Bahamas,2020,,BHS
+Bosnia and Herzegovina,2020,96.1,BIH
+Belarus,2020,98.7,BLR
+Belize,2020,98.4,BLZ
+Bermuda,2020,99.9,BMU
+Bolivia,2020,93.1,BOL
+Brazil,2020,99.3,BRA
+Barbados,2020,98.5,BRB
+Brunei,2020,99.9,BRN
+Bhutan,2020,99.0,BTN
+Botswana,2020,92.3,BWA
+Central African Republic,2020,37.2,CAF
+Canada,2020,99.2,CAN
+Switzerland,2020,100.0,CHE
+Chile,2020,100.0,CHL
+China,2020,95.9,CHN
+Cote d'Ivoire,2020,72.6,CIV
+Cameroon,2020,68.5,CMR
+"Congo, Dem. Rep.",2020,35.5,COD
+"Congo, Rep.",2020,73.8,COG
+Colombia,2020,97.0,COL
+Comoros,2020,,COM
+Cape Verde,2020,89.2,CPV
+Costa Rica,2020,99.8,CRI
+Cuba,2020,94.3,CUB
+Cayman Islands,2020,95.6,CYM
+Cyprus,2020,99.8,CYP
+Czech Republic,2020,99.9,CZE
+Germany,2020,100.0,DEU
+Djibouti,2020,76.0,DJI
+Dominica,2020,,DMA
+Denmark,2020,100.0,DNK
+Dominican Republic,2020,96.3,DOM
+Algeria,2020,94.4,DZA
+Ecuador,2020,95.4,ECU
+Egypt,2020,98.8,EGY
+Eritrea,2020,,ERI
+Spain,2020,99.9,ESP
+Estonia,2020,100.0,EST
+Ethiopia,2020,48.7,ETH
+Finland,2020,100.0,FIN
+Fiji,2020,95.4,FJI
+France,2020,100.0,FRA
+Faeroe Islands,2020,100.0,FRO
+"Micronesia, Fed. Sts.",2020,90.1,FSM
+Gabon,2020,86.3,GAB
+Isle of Man,2020,99.6,IMN
+UK,2020,100.0,GBR
+Georgia,2020,94.7,GEO
+Ghana,2020,86.3,GHA
+Gibraltar,2020,100.0,GIB
+Guinea,2020,68.9,GIN
+Gambia,2020,84.5,GMB
+Guinea-Bissau,2020,61.5,GNB
+Equatorial Guinea,2020,,GNQ
+Greece,2020,100.0,GRC
+Grenada,2020,,GRD
+Greenland,2020,100.0,GRL
+Guatemala,2020,93.9,GTM
+Guam,2020,99.7,GUM
+Guyana,2020,95.3,GUY
+"Hong Kong, China",2020,100.0,HKG
+Honduras,2020,95.0,HND
+Croatia,2020,,HRV
+Haiti,2020,66.7,HTI
+Hungary,2020,100.0,HUN
+Indonesia,2020,92.6,IDN
+India,2020,92.1,IND
+Ireland,2020,96.0,IRL
+Iran,2020,97.4,IRN
+Iraq,2020,98.4,IRQ
+Iceland,2020,100.0,ISL
+Israel,2020,100.0,ISR
+Italy,2020,99.9,ITA
+Jamaica,2020,91.0,JAM
+Jordan,2020,99.0,JOR
+Japan,2020,99.1,JPN
+Kazakhstan,2020,95.4,KAZ
+Kenya,2020,61.5,KEN
+Kyrgyz Republic,2020,90.7,KGZ
+Cambodia,2020,76.3,KHM
+Kiribati,2020,74.3,KIR
+St. Kitts and Nevis,2020,,KNA
+South Korea,2020,99.8,KOR
+Kuwait,2020,100.0,KWT
+Lao,2020,85.2,LAO
+Lebanon,2020,92.6,LBN
+Liberia,2020,74.7,LBR
+Libya,2020,99.9,LBY
+St. Lucia,2020,96.9,LCA
+Liechtenstein,2020,100.0,LIE
+Sri Lanka,2020,88.7,LKA
+Lesotho,2020,73.3,LSO
+Lithuania,2020,98.0,LTU
+Luxembourg,2020,99.9,LUX
+Latvia,2020,98.8,LVA
+"Macao, China",2020,100.0,MAC
+St. Martin (French part),2020,99.9,MAF
+Morocco,2020,85.9,MAR
+Monaco,2020,100.0,MCO
+Moldova,2020,91.1,MDA
+Madagascar,2020,51.9,MDG
+Maldives,2020,99.5,MDV
+Mexico,2020,99.4,MEX
+Marshall Islands,2020,85.5,MHL
+North Macedonia,2020,97.8,MKD
+Mali,2020,80.7,MLI
+Malta,2020,100.0,MLT
+Myanmar,2020,80.7,MMR
+Montenegro,2020,98.9,MNE
+Mongolia,2020,82.1,MNG
+Northern Mariana Islands,2020,100.0,MNP
+Mozambique,2020,59.8,MOZ
+Mauritania,2020,74.3,MRT
+Mauritius,2020,100.0,MUS
+Malawi,2020,70.3,MWI
+Malaysia,2020,97.1,MYS
+Namibia,2020,85.3,NAM
+New Caledonia,2020,99.3,NCL
+Niger,2020,47.7,NER
+Nigeria,2020,76.4,NGA
+Nicaragua,2020,81.7,NIC
+Netherlands,2020,100.0,NLD
+Curaçao,2020,,CUW
+Norway,2020,100.0,NOR
+Nepal,2020,90.8,NPL
+Nauru,2020,,NRU
+New Zealand,2020,100.0,NZL
+Oman,2020,92.2,OMN
+Pakistan,2020,90.3,PAK
+Panama,2020,94.4,PAN
+Peru,2020,93.6,PER
+Philippines,2020,94.1,PHL
+Palau,2020,99.6,PLW
+Papua New Guinea,2020,48.1,PNG
+Poland,2020,91.1,POL
+Puerto Rico,2020,100.0,PRI
+North Korea,2020,93.8,PRK
+Portugal,2020,99.2,PRT
+Paraguay,2020,99.6,PRY
+Palestine,2020,97.9,PSE
+French Polynesia,2020,100.0,PYF
+Qatar,2020,100.0,QAT
+Romania,2020,100.0,ROU
+Russia,2020,96.9,RUS
+Rwanda,2020,63.4,RWA
+Saudi Arabia,2020,98.7,SAU
+Sudan,2020,62.7,SDN
+Senegal,2020,83.9,SEN
+Singapore,2020,100.0,SGP
+Solomon Islands,2020,67.3,SLB
+Sierra Leone,2020,63.1,SLE
+El Salvador,2020,98.0,SLV
+San Marino,2020,100.0,SMR
+Somalia,2020,56.5,SOM
+Serbia,2020,95.3,SRB
+South Sudan,2020,41.0,SSD
+Sao Tome and Principe,2020,77.3,STP
+Suriname,2020,98.0,SUR
+Slovak Republic,2020,99.8,SVK
+Slovenia,2020,99.5,SVN
+Sweden,2020,99.7,SWE
+Eswatini,2020,71.4,SWZ
+Sint Maarten (Dutch part),2020,,SXM
+Seychelles,2020,96.4,SYC
+Syria,2020,94.0,SYR
+Turks and Caicos Islands,2020,98.8,TCA
+Chad,2020,51.2,TCD
+Togo,2020,68.9,TGO
+Thailand,2020,100.0,THA
+Tajikistan,2020,81.9,TJK
+Turkmenistan,2020,100.0,TKM
+Timor-Leste,2020,84.0,TLS
+Tonga,2020,98.7,TON
+Trinidad and Tobago,2020,98.9,TTO
+Tunisia,2020,96.7,TUN
+Turkey,2020,97.0,TUR
+Tuvalu,2020,99.2,TUV
+Tanzania,2020,58.0,TZA
+Uganda,2020,56.0,UGA
+Ukraine,2020,93.5,UKR
+Uruguay,2020,99.5,URY
+USA,2020,99.8,USA
+Uzbekistan,2020,96.0,UZB
+St. Vincent and the Grenadines,2020,,VCT
+Venezuela,2020,93.7,VEN
+British Virgin Islands,2020,99.9,VGB
+Virgin Islands (U.S.),2020,98.7,VIR
+Vietnam,2020,96.7,VNM
+Vanuatu,2020,90.5,VUT
+Samoa,2020,97.4,WSM
+Yemen,2020,60.7,YEM
+South Africa,2020,93.8,ZAF
+Zambia,2020,67.8,ZMB
+Zimbabwe,2020,62.7,ZWE
+Aruba,2021,,ABW
+Afghanistan,2021,79.7,AFG
+Angola,2021,57.4,AGO
+Albania,2021,95.1,ALB
+Andorra,2021,100.0,AND
+UAE,2021,100.0,ARE
+Argentina,2021,,ARG
+Armenia,2021,100.0,ARM
+American Samoa,2021,99.2,ASM
+Antigua and Barbuda,2021,98.4,ATG
+Australia,2021,100.0,AUS
+Austria,2021,100.0,AUT
+Azerbaijan,2021,97.0,AZE
+Burundi,2021,62.3,BDI
+Belgium,2021,100.0,BEL
+Benin,2021,67.1,BEN
+Burkina Faso,2021,49.0,BFA
+Bangladesh,2021,98.0,BGD
+Bulgaria,2021,99.1,BGR
+Bahrain,2021,99.9,BHR
+Bahamas,2021,,BHS
+Bosnia and Herzegovina,2021,96.1,BIH
+Belarus,2021,99.2,BLR
+Belize,2021,98.4,BLZ
+Bermuda,2021,99.9,BMU
+Bolivia,2021,93.6,BOL
+Brazil,2021,99.6,BRA
+Barbados,2021,98.5,BRB
+Brunei,2021,99.9,BRN
+Bhutan,2021,99.1,BTN
+Botswana,2021,92.4,BWA
+Central African Republic,2021,36.2,CAF
+Canada,2021,99.2,CAN
+Switzerland,2021,100.0,CHE
+Chile,2021,100.0,CHL
+China,2021,96.7,CHN
+Cote d'Ivoire,2021,72.7,CIV
+Cameroon,2021,68.9,CMR
+"Congo, Dem. Rep.",2021,35.3,COD
+"Congo, Rep.",2021,74.0,COG
+Colombia,2021,97.4,COL
+Comoros,2021,,COM
+Cape Verde,2021,89.8,CPV
+Costa Rica,2021,99.8,CRI
+Cuba,2021,94.6,CUB
+Cayman Islands,2021,95.5,CYM
+Cyprus,2021,99.8,CYP
+Czech Republic,2021,99.9,CZE
+Germany,2021,100.0,DEU
+Djibouti,2021,76.1,DJI
+Dominica,2021,,DMA
+Denmark,2021,100.0,DNK
+Dominican Republic,2021,96.7,DOM
+Algeria,2021,94.6,DZA
+Ecuador,2021,95.7,ECU
+Egypt,2021,98.8,EGY
+Eritrea,2021,,ERI
+Spain,2021,99.9,ESP
+Estonia,2021,100.0,EST
+Ethiopia,2021,50.0,ETH
+Finland,2021,100.0,FIN
+Fiji,2021,95.5,FJI
+France,2021,100.0,FRA
+Faeroe Islands,2021,100.0,FRO
+"Micronesia, Fed. Sts.",2021,,FSM
+Gabon,2021,86.6,GAB
+Isle of Man,2021,99.7,IMN
+UK,2021,100.0,GBR
+Georgia,2021,94.8,GEO
+Ghana,2021,87.4,GHA
+Gibraltar,2021,100.0,GIB
+Guinea,2021,70.2,GIN
+Gambia,2021,85.1,GMB
+Guinea-Bissau,2021,61.7,GNB
+Equatorial Guinea,2021,,GNQ
+Greece,2021,100.0,GRC
+Grenada,2021,,GRD
+Greenland,2021,100.0,GRL
+Guatemala,2021,94.2,GTM
+Guam,2021,99.7,GUM
+Guyana,2021,95.6,GUY
+"Hong Kong, China",2021,100.0,HKG
+Honduras,2021,95.4,HND
+Croatia,2021,,HRV
+Haiti,2021,67.1,HTI
+Hungary,2021,100.0,HUN
+Indonesia,2021,93.4,IDN
+India,2021,92.7,IND
+Ireland,2021,96.0,IRL
+Iran,2021,97.6,IRN
+Iraq,2021,98.4,IRQ
+Iceland,2021,100.0,ISL
+Israel,2021,100.0,ISR
+Italy,2021,99.9,ITA
+Jamaica,2021,91.1,JAM
+Jordan,2021,99.0,JOR
+Japan,2021,99.1,JPN
+Kazakhstan,2021,95.4,KAZ
+Kenya,2021,62.2,KEN
+Kyrgyz Republic,2021,90.8,KGZ
+Cambodia,2021,77.1,KHM
+Kiribati,2021,74.9,KIR
+St. Kitts and Nevis,2021,,KNA
+South Korea,2021,99.9,KOR
+Kuwait,2021,100.0,KWT
+Lao,2021,85.3,LAO
+Lebanon,2021,92.6,LBN
+Liberia,2021,75.1,LBR
+Libya,2021,99.9,LBY
+St. Lucia,2021,96.9,LCA
+Liechtenstein,2021,100.0,LIE
+Sri Lanka,2021,89.0,LKA
+Lesotho,2021,73.6,LSO
+Lithuania,2021,98.0,LTU
+Luxembourg,2021,99.9,LUX
+Latvia,2021,98.8,LVA
+"Macao, China",2021,100.0,MAC
+St. Martin (French part),2021,99.9,MAF
+Morocco,2021,86.8,MAR
+Monaco,2021,100.0,MCO
+Moldova,2021,91.6,MDA
+Madagascar,2021,52.7,MDG
+Maldives,2021,99.6,MDV
+Mexico,2021,99.5,MEX
+Marshall Islands,2021,85.3,MHL
+North Macedonia,2021,97.8,MKD
+Mali,2021,82.2,MLI
+Malta,2021,100.0,MLT
+Myanmar,2021,82.3,MMR
+Montenegro,2021,98.9,MNE
+Mongolia,2021,82.8,MNG
+Northern Mariana Islands,2021,100.0,MNP
+Mozambique,2021,61.5,MOZ
+Mauritania,2021,76.1,MRT
+Mauritius,2021,100.0,MUS
+Malawi,2021,71.1,MWI
+Malaysia,2021,97.1,MYS
+Namibia,2021,85.7,NAM
+New Caledonia,2021,99.5,NCL
+Niger,2021,48.1,NER
+Nigeria,2021,78.0,NGA
+Nicaragua,2021,,NIC
+Netherlands,2021,100.0,NLD
+Curaçao,2021,,CUW
+Norway,2021,100.0,NOR
+Nepal,2021,91.2,NPL
+Nauru,2021,,NRU
+New Zealand,2021,100.0,NZL
+Oman,2021,92.3,OMN
+Pakistan,2021,90.5,PAK
+Panama,2021,94.6,PAN
+Peru,2021,94.2,PER
+Philippines,2021,94.5,PHL
+Palau,2021,99.6,PLW
+Papua New Guinea,2021,49.2,PNG
+Poland,2021,90.4,POL
+Puerto Rico,2021,100.0,PRI
+North Korea,2021,93.9,PRK
+Portugal,2021,99.2,PRT
+Paraguay,2021,99.6,PRY
+Palestine,2021,98.2,PSE
+French Polynesia,2021,100.0,PYF
+Qatar,2021,100.0,QAT
+Romania,2021,100.0,ROU
+Russia,2021,97.0,RUS
+Rwanda,2021,64.5,RWA
+Saudi Arabia,2021,98.7,SAU
+Sudan,2021,63.9,SDN
+Senegal,2021,85.1,SEN
+Singapore,2021,100.0,SGP
+Solomon Islands,2021,67.4,SLB
+Sierra Leone,2021,64.2,SLE
+El Salvador,2021,98.2,SLV
+San Marino,2021,100.0,SMR
+Somalia,2021,58.0,SOM
+Serbia,2021,95.7,SRB
+South Sudan,2021,41.1,SSD
+Sao Tome and Principe,2021,77.3,STP
+Suriname,2021,98.0,SUR
+Slovak Republic,2021,99.8,SVK
+Slovenia,2021,99.5,SVN
+Sweden,2021,99.7,SWE
+Eswatini,2021,72.5,SWZ
+Sint Maarten (Dutch part),2021,,SXM
+Seychelles,2021,96.4,SYC
+Syria,2021,94.1,SYR
+Turks and Caicos Islands,2021,98.8,TCA
+Chad,2021,51.9,TCD
+Togo,2021,69.9,TGO
+Thailand,2021,100.0,THA
+Tajikistan,2021,81.9,TJK
+Turkmenistan,2021,100.0,TKM
+Timor-Leste,2021,85.6,TLS
+Tonga,2021,98.8,TON
+Trinidad and Tobago,2021,98.9,TTO
+Tunisia,2021,96.9,TUN
+Turkey,2021,97.0,TUR
+Tuvalu,2021,99.2,TUV
+Tanzania,2021,59.4,TZA
+Uganda,2021,57.6,UGA
+Ukraine,2021,93.5,UKR
+Uruguay,2021,99.5,URY
+USA,2021,99.9,USA
+Uzbekistan,2021,96.3,UZB
+St. Vincent and the Grenadines,2021,,VCT
+Venezuela,2021,93.5,VEN
+British Virgin Islands,2021,99.9,VGB
+Virgin Islands (U.S.),2021,,VIR
+Vietnam,2021,97.3,VNM
+Vanuatu,2021,90.9,VUT
+Samoa,2021,98.3,WSM
+Yemen,2021,61.6,YEM
+South Africa,2021,94.1,ZAF
+Zambia,2021,68.0,ZMB
+Zimbabwe,2021,62.3,ZWE
+Aruba,2022,,ABW
+Afghanistan,2022,82.2,AFG
+Angola,2022,57.7,AGO
+Albania,2022,95.1,ALB
+Andorra,2022,100.0,AND
+UAE,2022,100.0,ARE
+Argentina,2022,,ARG
+Armenia,2022,100.0,ARM
+American Samoa,2022,,ASM
+Antigua and Barbuda,2022,98.4,ATG
+Australia,2022,100.0,AUS
+Austria,2022,100.0,AUT
+Azerbaijan,2022,97.6,AZE
+Burundi,2022,62.4,BDI
+Belgium,2022,100.0,BEL
+Benin,2022,67.4,BEN
+Burkina Faso,2022,49.5,BFA
+Bangladesh,2022,98.1,BGD
+Bulgaria,2022,99.1,BGR
+Bahrain,2022,99.9,BHR
+Bahamas,2022,,BHS
+Bosnia and Herzegovina,2022,96.1,BIH
+Belarus,2022,99.2,BLR
+Belize,2022,98.4,BLZ
+Bermuda,2022,99.9,BMU
+Bolivia,2022,94.1,BOL
+Brazil,2022,99.6,BRA
+Barbados,2022,98.5,BRB
+Brunei,2022,99.9,BRN
+Bhutan,2022,99.1,BTN
+Botswana,2022,92.6,BWA
+Central African Republic,2022,36.3,CAF
+Canada,2022,99.2,CAN
+Switzerland,2022,100.0,CHE
+Chile,2022,100.0,CHL
+China,2022,97.6,CHN
+Cote d'Ivoire,2022,72.9,CIV
+Cameroon,2022,69.6,CMR
+"Congo, Dem. Rep.",2022,35.1,COD
+"Congo, Rep.",2022,,COG
+Colombia,2022,97.5,COL
+Comoros,2022,,COM
+Cape Verde,2022,89.9,CPV
+Costa Rica,2022,99.8,CRI
+Cuba,2022,94.7,CUB
+Cayman Islands,2022,95.5,CYM
+Cyprus,2022,99.8,CYP
+Czech Republic,2022,99.9,CZE
+Germany,2022,100.0,DEU
+Djibouti,2022,76.2,DJI
+Dominica,2022,,DMA
+Denmark,2022,100.0,DNK
+Dominican Republic,2022,96.8,DOM
+Algeria,2022,94.7,DZA
+Ecuador,2022,95.7,ECU
+Egypt,2022,98.8,EGY
+Eritrea,2022,,ERI
+Spain,2022,99.9,ESP
+Estonia,2022,100.0,EST
+Ethiopia,2022,51.5,ETH
+Finland,2022,100.0,FIN
+Fiji,2022,95.5,FJI
+France,2022,100.0,FRA
+Faeroe Islands,2022,100.0,FRO
+"Micronesia, Fed. Sts.",2022,,FSM
+Gabon,2022,86.9,GAB
+Isle of Man,2022,99.9,IMN
+UK,2022,100.0,GBR
+Georgia,2022,95.0,GEO
+Ghana,2022,88.4,GHA
+Gibraltar,2022,100.0,GIB
+Guinea,2022,71.5,GIN
+Gambia,2022,85.6,GMB
+Guinea-Bissau,2022,61.8,GNB
+Equatorial Guinea,2022,,GNQ
+Greece,2022,100.0,GRC
+Grenada,2022,,GRD
+Greenland,2022,100.0,GRL
+Guatemala,2022,94.6,GTM
+Guam,2022,99.7,GUM
+Guyana,2022,95.9,GUY
+"Hong Kong, China",2022,100.0,HKG
+Honduras,2022,95.8,HND
+Croatia,2022,,HRV
+Haiti,2022,67.4,HTI
+Hungary,2022,100.0,HUN
+Indonesia,2022,94.1,IDN
+India,2022,93.3,IND
+Ireland,2022,96.0,IRL
+Iran,2022,97.7,IRN
+Iraq,2022,98.4,IRQ
+Iceland,2022,100.0,ISL
+Israel,2022,100.0,ISR
+Italy,2022,99.9,ITA
+Jamaica,2022,91.1,JAM
+Jordan,2022,99.0,JOR
+Japan,2022,99.1,JPN
+Kazakhstan,2022,,KAZ
+Kenya,2022,62.9,KEN
+Kyrgyz Republic,2022,90.8,KGZ
+Cambodia,2022,78.0,KHM
+Kiribati,2022,75.7,KIR
+St. Kitts and Nevis,2022,,KNA
+South Korea,2022,100.0,KOR
+Kuwait,2022,100.0,KWT
+Lao,2022,85.5,LAO
+Lebanon,2022,92.6,LBN
+Liberia,2022,75.6,LBR
+Libya,2022,99.9,LBY
+St. Lucia,2022,96.9,LCA
+Liechtenstein,2022,100.0,LIE
+Sri Lanka,2022,89.3,LKA
+Lesotho,2022,74.0,LSO
+Lithuania,2022,98.0,LTU
+Luxembourg,2022,99.9,LUX
+Latvia,2022,98.9,LVA
+"Macao, China",2022,100.0,MAC
+St. Martin (French part),2022,99.9,MAF
+Morocco,2022,87.0,MAR
+Monaco,2022,100.0,MCO
+Moldova,2022,92.0,MDA
+Madagascar,2022,53.5,MDG
+Maldives,2022,99.6,MDV
+Mexico,2022,99.7,MEX
+Marshall Islands,2022,85.1,MHL
+North Macedonia,2022,97.8,MKD
+Mali,2022,83.6,MLI
+Malta,2022,100.0,MLT
+Myanmar,2022,82.4,MMR
+Montenegro,2022,98.9,MNE
+Mongolia,2022,83.5,MNG
+Northern Mariana Islands,2022,100.0,MNP
+Mozambique,2022,63.2,MOZ
+Mauritania,2022,77.8,MRT
+Mauritius,2022,100.0,MUS
+Malawi,2022,71.9,MWI
+Malaysia,2022,97.2,MYS
+Namibia,2022,85.9,NAM
+New Caledonia,2022,99.5,NCL
+Niger,2022,48.9,NER
+Nigeria,2022,79.6,NGA
+Nicaragua,2022,,NIC
+Netherlands,2022,100.0,NLD
+Curaçao,2022,,CUW
+Norway,2022,100.0,NOR
+Nepal,2022,91.2,NPL
+Nauru,2022,,NRU
+New Zealand,2022,100.0,NZL
+Oman,2022,92.4,OMN
+Pakistan,2022,90.6,PAK
+Panama,2022,94.7,PAN
+Peru,2022,94.8,PER
+Philippines,2022,94.9,PHL
+Palau,2022,99.6,PLW
+Papua New Guinea,2022,50.2,PNG
+Poland,2022,90.4,POL
+Puerto Rico,2022,100.0,PRI
+North Korea,2022,93.9,PRK
+Portugal,2022,99.3,PRT
+Paraguay,2022,99.6,PRY
+Palestine,2022,98.4,PSE
+French Polynesia,2022,100.0,PYF
+Qatar,2022,100.0,QAT
+Romania,2022,100.0,ROU
+Russia,2022,97.1,RUS
+Rwanda,2022,65.1,RWA
+Saudi Arabia,2022,98.6,SAU
+Sudan,2022,64.9,SDN
+Senegal,2022,86.2,SEN
+Singapore,2022,100.0,SGP
+Solomon Islands,2022,,SLB
+Sierra Leone,2022,65.3,SLE
+El Salvador,2022,98.6,SLV
+San Marino,2022,100.0,SMR
+Somalia,2022,58.3,SOM
+Serbia,2022,95.7,SRB
+South Sudan,2022,41.2,SSD
+Sao Tome and Principe,2022,77.3,STP
+Suriname,2022,98.0,SUR
+Slovak Republic,2022,99.8,SVK
+Slovenia,2022,99.5,SVN
+Sweden,2022,99.7,SWE
+Eswatini,2022,73.5,SWZ
+Sint Maarten (Dutch part),2022,,SXM
+Seychelles,2022,96.4,SYC
+Syria,2022,94.1,SYR
+Turks and Caicos Islands,2022,98.8,TCA
+Chad,2022,52.0,TCD
+Togo,2022,71.0,TGO
+Thailand,2022,100.0,THA
+Tajikistan,2022,81.9,TJK
+Turkmenistan,2022,100.0,TKM
+Timor-Leste,2022,87.0,TLS
+Tonga,2022,98.8,TON
+Trinidad and Tobago,2022,98.9,TTO
+Tunisia,2022,97.2,TUN
+Turkey,2022,97.0,TUR
+Tuvalu,2022,99.3,TUV
+Tanzania,2022,60.8,TZA
+Uganda,2022,59.3,UGA
+Ukraine,2022,93.6,UKR
+Uruguay,2022,99.5,URY
+USA,2022,100.0,USA
+Uzbekistan,2022,96.6,UZB
+St. Vincent and the Grenadines,2022,,VCT
+Venezuela,2022,93.3,VEN
+British Virgin Islands,2022,99.9,VGB
+Virgin Islands (U.S.),2022,,VIR
+Vietnam,2022,98.0,VNM
+Vanuatu,2022,91.3,VUT
+Samoa,2022,99.0,WSM
+Yemen,2022,61.8,YEM
+South Africa,2022,94.5,ZAF
+Zambia,2022,68.2,ZMB
+Zimbabwe,2022,62.3,ZWE

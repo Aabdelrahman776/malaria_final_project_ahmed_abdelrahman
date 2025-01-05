@@ -1,0 +1,881 @@
+---
+title: " 🦟 Malaria, Water Access & Mortality | 2012 - 2022"
+subtitle: "A Decade of Trends and Insights Across Africa"
+author: "Ahmed Abdelrahman"
+format:
+  dashboard:
+    theme: lumen
+
+execute: 
+  echo: false
+---
+
+
+```{python}
+
+# 1. Importing the required libraries
+
+import pandas as pd
+import country_converter as coco
+import plotly.express as px
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import itables
+import geopandas as gpd
+import json
+
+# -----------------------------------
+
+# 2. Loading datasets -
+# Loading water access and child mortality datasets
+
+water_access = pd.read_csv(
+    "data/at_least_basic_water_source_overall_access_percent.csv"
+)
+
+child_mortality = pd.read_csv("data/child-mortality-igme.csv")
+
+# -----------------------------------
+# 3. Reshaping water access data
+
+## Converting year columns into rows (easier analysis)
+
+
+water_access = pd.melt(
+    water_access,
+    id_vars=["country"],  # Keep 'country' column fixed
+    var_name="Year",  # column for years
+    value_name="Water Access (%)",  # Values from year columns
+)
+
+# Ensure Year is numeric and filter relevant years (2012–2022)
+
+water_access["Year"] = pd.to_numeric(water_access["Year"], errors="coerce")
+water_access.dropna(subset=["Year"], inplace=True)
+water_access["Year"] = water_access["Year"].astype(int)
+water_access = water_access[
+    (water_access["Year"] >= 2012) & (water_access["Year"] <= 2022)
+]
+
+
+# Filtering between 2012 and 2022
+water_access = water_access[
+    (water_access["Year"] >= 2012) & (water_access["Year"] <= 2022)
+]
+
+
+# Want to see how child mortality has changed over time and what is the relationship with basic water access
+
+
+# filtering the data
+
+child_mortality = child_mortality[
+    (child_mortality["Year"] >= 2012) & (child_mortality["Year"] <= 2022)
+]
+
+
+#
+
+water_access["ISO_Code"] = coco.convert(names=water_access["country"], to="ISO3")
+
+water_access.loc[water_access["country"] == "UAE", "ISO_Code"] = "ARE"
+
+
+water_access.to_csv("data/water_access_with_iso.csv", index=False)
+
+# Renaming columns
+
+
+child_mortality.rename(
+    columns={
+        "Code": "ISO_Code",
+        "Year": "Year",
+        "Observation value - Indicator: Under-five mortality rate - Sex: Total - Wealth quintile: Total - Unit of measure: Deaths per 100 live births": "Child Mortality (Per 100)",
+        "Entity": "Country",
+    },
+    inplace=True,
+)
+
+
+water_access.rename(
+    columns={"ISO_Code": "ISO_Code", "country": "Country"}, inplace=True
+)
+
+
+# merging the two data sets together (water access and child mortality) for ease of analysis
+
+merged_data = pd.merge(
+    water_access, child_mortality, on=["ISO_Code", "Year"], how="inner"
+)
+
+
+# getting rid of two axis
+
+merged_data.drop(columns=["Country_y"], inplace=True)
+merged_data.rename(columns={"Country_x": "Country"}, inplace=True)
+
+
+# changing units
+
+merged_data["Child Mortality (Per 1,000)"] = (
+    merged_data["Child Mortality (Per 100)"] * 10
+)
+
+
+# Dropping Child Mortality per 100
+
+merged_data.drop(columns=["Child Mortality (Per 100)"], inplace=True)
+
+
+# Now after data has been cleaned, analysis:
+
+# Water Access
+
+avg_water_access = merged_data["Water Access (%)"].mean()
+
+
+# Chloropleth map for access
+
+fig_water_map = px.choropleth(
+    merged_data,
+    locations="ISO_Code",
+    locationmode="ISO-3",
+    color="Water Access (%)",
+    hover_name="Country",
+    animation_frame="Year",
+    title="🌍 Water Access Across Countries (2012–2022)",
+    color_continuous_scale="Blues",
+)
+
+
+# In order to conduct a continental analysis
+
+merged_data["Continent"] = coco.convert(names=merged_data["ISO_Code"], to="continent")
+
+
+fig_box_water = px.box(
+    merged_data,
+    x="Continent",
+    y="Water Access (%)",
+    color="Continent",
+    title="📦 Distribution of Water Access Across Continents (2022)",
+)
+
+
+# Only want the data for 2022
+
+merged_data_2022 = merged_data.query("Year == 2022")
+
+
+# Top and Bottom 5 Countries
+top_5_mortality = merged_data_2022.nlargest(5, "Child Mortality (Per 1,000)")
+bottom_5_mortality = merged_data_2022.nsmallest(5, "Child Mortality (Per 1,000)")
+
+fig_top_mortality = px.bar(
+    top_5_mortality,
+    x="Country",
+    y="Child Mortality (Per 1,000)",
+    title="⚰️ Highest Child Mortality (2022)",
+)
+fig_bottom_mortality = px.bar(
+    bottom_5_mortality,
+    x="Country",
+    y="Child Mortality (Per 1,000)",
+    title="🛡️ Lowest Child Mortality (2022)",
+)
+
+# To see the relationship between child mortality and basic water acess
+
+fig_bubble = px.scatter(
+    merged_data_2022,
+    x="Water Access (%)",
+    y="Child Mortality (Per 1,000)",
+    color="Continent",
+    size="Child Mortality (Per 1,000)",
+    hover_name="Country",
+    title="Bubble Plot: Water Access vs Child Mortality (2022)",
+    trendline="ols",
+    trendline_scope="overall",
+)
+
+
+# Africa Malaria Mortality - Loading the dataset I need from Malaria Atlas Project
+
+malaria_mortality = pd.read_csv("data/National Unit-data.csv")
+
+
+# To readjust columns
+
+malaria_reshaped = malaria_mortality.pivot_table(
+    index=["ISO3", "Name", "Admin Level", "Year"],
+    columns="Metric",
+    values="Value",
+    aggfunc="first",
+).reset_index()
+
+# Dropping the columns I don't need
+
+malaria_reshaped.drop(columns=["Infection Prevalence"], inplace=True)
+
+# Renaming columns
+
+malaria_reshaped.rename(
+    columns={
+        "Name": "Country",
+        "Incidence Rate": "Incidence Rate (per 1,000)",
+        "Mortality Rate": "Mortality Rate (per 100,000)",
+    },
+    inplace=True,
+)
+
+
+# Filtering for the year 2022
+
+malaria_2022 = malaria_reshaped.query("Year == 2022")
+
+
+# I want to make a chloropleth map for mortality rate over 10 year period (2012-2022)
+
+fig_mort_map = px.choropleth(
+    malaria_reshaped,
+    locations="ISO3",
+    color="Mortality Rate (per 100,000)",
+    hover_name="Country",
+    animation_frame="Year",
+    title="🌍 Global Malaria Mortality (2012–2022)",
+    color_continuous_scale="Reds",
+)
+
+
+# I also Want to see which country has the highest incidence in rate and what is the figure
+
+highest_row = (
+    malaria_2022.sort_values("Incidence Rate (per 1,000)", ascending=False)
+    .head(1)
+    .squeeze()
+)
+
+highest_incidence_rate = highest_row["Country"]
+
+highest_incidence_rate_value = round(highest_row["Incidence Rate (per 1,000)"], 1)
+
+
+# Filtering for only african countries
+
+african_countries = malaria_2022.query(
+    "ISO3 in ['DZA', 'AGO', 'BEN', 'BWA', 'BFA', 'BDI', 'CMR', 'CPV', 'CAF', 'TCD', 'COM', 'COD', 'COG', 'CIV', 'DJI', 'EGY', 'GNQ', 'ERI', 'ETH', 'GAB', 'GMB', 'GHA', 'GIN', 'GNB', 'KEN', 'LSO', 'LBR', 'LBY', 'MDG', 'MWI', 'MLI', 'MRT', 'MUS', 'MOZ', 'NAM', 'NER', 'NGA', 'RWA', 'STP', 'SEN', 'SYC', 'SLE', 'SOM', 'ZAF', 'SSD', 'SDN', 'SWZ', 'TGO', 'TUN', 'UGA', 'TZA', 'ZMB', 'ZWE']"
+)
+
+lowest_row_africa = (
+    african_countries.sort_values("Incidence Rate (per 1,000)", ascending=True)
+    .head(1)
+    .squeeze()
+)
+
+lowest_incidence_rate = lowest_row_africa["Country"]
+
+lowest_incidence_rate_value = round(lowest_row_africa["Incidence Rate (per 1,000)"], 1)
+
+
+# After checking the value, this will not be useful for the analysis, so we will look at the average instead
+
+average_incidence_rate_africa = african_countries["Incidence Rate (per 1,000)"].mean()
+
+average_incidence_rate_africa = round(average_incidence_rate_africa, 1)
+
+
+# I want to find the average incidence rate for each year in the african continent to see how things have changed
+
+african_iso3_codes = [
+    "DZA",
+    "AGO",
+    "BEN",
+    "BWA",
+    "BFA",
+    "BDI",
+    "CMR",
+    "CPV",
+    "CAF",
+    "TCD",
+    "COM",
+    "COD",
+    "COG",
+    "CIV",
+    "DJI",
+    "EGY",
+    "GNQ",
+    "ERI",
+    "ETH",
+    "GAB",
+    "GMB",
+    "GHA",
+    "GIN",
+    "GNB",
+    "KEN",
+    "LSO",
+    "LBR",
+    "LBY",
+    "MDG",
+    "MWI",
+    "MLI",
+    "MRT",
+    "MUS",
+    "MOZ",
+    "NAM",
+    "NER",
+    "NGA",
+    "RWA",
+    "STP",
+    "SEN",
+    "SYC",
+    "SLE",
+    "SOM",
+    "ZAF",
+    "SSD",
+    "SDN",
+    "SWZ",
+    "TGO",
+    "TUN",
+    "UGA",
+    "TZA",
+    "ZMB",
+    "ZWE",
+]
+
+
+africa_countries_10_yr = malaria_reshaped[
+    (malaria_reshaped["ISO3"].isin(african_iso3_codes))
+    & (malaria_reshaped["Year"] >= 2012)
+    & (malaria_reshaped["Year"] <= 2022)
+]
+
+
+avg_african_per_yr_inc = (
+    africa_countries_10_yr.groupby("Year")["Incidence Rate (per 1,000)"]
+    .mean()
+    .reset_index()
+)
+
+avg_african_per_yr_inc["Incidence Rate (per 1,000)"] = avg_african_per_yr_inc[
+    "Incidence Rate (per 1,000)"
+].round(1)
+
+
+# barchart to see average for each year
+
+fig = px.bar(
+    avg_african_per_yr_inc,
+    x="Year",
+    y="Incidence Rate (per 1,000)",
+    title="Average Malaria Incidence Rate in Africa (2012-2022)",
+    labels={
+        "Incidence Rate (per 1,000)": "Average Incidence Rate (per 1,000)",
+        "Year": "Year",
+    },
+    color_discrete_sequence=["#1f77b4"],
+)
+
+
+# I want to see which country has the highest mortality rate in Africa in 2022 and what is the figure
+
+highest_row_mort = (
+    malaria_2022.sort_values("Mortality Rate (per 100,000)", ascending=False)
+    .head(1)
+    .squeeze()
+)
+
+highest_mortality_rate = highest_row_mort["Country"]
+
+
+highest_mortality_rate_value = round(
+    highest_row_mort["Mortality Rate (per 100,000)"], 1
+)
+
+
+# After discovering it is Burkina Faso, I would like to do a subnational analysis to see how mortality is distributed across the countries administrative regions
+
+
+# Once again, loading the sub-national mortality data from Malaria Atlas Project
+
+burkina_mortality = pd.read_csv("data/Burkina_Mortality_Subnational.csv")
+
+# I also found that Benin had the highest incidence of mortality, so I would like to see the same thing here at the sub-national level
+
+benin_incidence = pd.read_csv("data/Benin_Sub_national_Incidence.csv")
+
+# checking to see dataset has properly been loaded
+
+
+burkina_mortality_reshape = burkina_mortality.pivot_table(
+    index=["ISO3", "Name", "Admin Level", "Year"],
+    columns="Metric",
+    values="Value",
+    aggfunc="first",
+).reset_index()
+
+
+burkina_mortality_reshape.rename(
+    columns={
+        "Name": "Administrative Region",
+        "Mortality Rate": "Mortality Rate (per 100,000)",
+    },
+    inplace=True,
+)
+
+burkina_mortality_reshape["Mortality Rate (per 100,000)"] = burkina_mortality_reshape[
+    "Mortality Rate (per 100,000)"
+].astype(int)
+
+
+burkina_mortality_reshape_2012 = burkina_mortality_reshape[
+    (burkina_mortality_reshape["Year"] == 2012)
+]
+
+burkina_mortality_reshape_2012 = burkina_mortality_reshape_2012.sort_values(
+    "Mortality Rate (per 100,000)", ascending=True
+)
+
+fig_burkina_mort_2012 = px.bar(
+    burkina_mortality_reshape_2012,
+    x="Mortality Rate (per 100,000)",
+    y="Administrative Region",
+    title="Mortality Rate per Administrative Region in Burkina Faso (2012)",
+    color="Mortality Rate (per 100,000)",
+    color_continuous_scale="Reds",
+    orientation="h",
+)
+
+
+burkina_mortality_reshape_2022 = burkina_mortality_reshape[
+    (burkina_mortality_reshape["Year"] == 2022)
+]
+
+burkina_mortality_reshape_2022 = burkina_mortality_reshape_2022.sort_values(
+    "Mortality Rate (per 100,000)", ascending=True
+)
+
+fig_burkina_mort_2022 = px.bar(
+    burkina_mortality_reshape_2022,
+    x="Mortality Rate (per 100,000)",
+    y="Administrative Region",
+    title="Mortality Rate per Administrative Region in Burkina Faso (2022)",
+    color="Mortality Rate (per 100,000)",
+    color_continuous_scale="Reds",
+    orientation="h",
+)
+
+
+benin_incidence_reshape = benin_incidence.pivot_table(
+    index=["ISO3", "Name", "Admin Level", "Year"],
+    columns="Metric",
+    values="Value",
+    aggfunc="first",
+).reset_index()
+
+
+benin_incidence_reshape.rename(
+    columns={
+        "Name": "Administrative Region",
+        "Incidence Rate": "Incidence Rate (per 1,000)",
+    },
+    inplace=True,
+)
+
+benin_incidence_reshape["Incidence Rate (per 1,000)"] = benin_incidence_reshape[
+    "Incidence Rate (per 1,000)"
+].astype(int)
+
+
+benin_incidence_reshape_2022 = benin_incidence_reshape.query("Year == 2022")
+
+benin_incidence_reshape_2012 = benin_incidence_reshape.query("Year == 2012")
+
+
+benin_incidence_reshape_2012 = benin_incidence_reshape_2012.sort_values(
+    "Incidence Rate (per 1,000)", ascending=True
+)
+
+
+fig_benin_inci_2012_reg = px.bar(
+    benin_incidence_reshape_2012,
+    x="Incidence Rate (per 1,000)",
+    y="Administrative Region",
+    title="Incidence Rate per Administrative Region in Benin (2012)",
+    color="Incidence Rate (per 1,000)",
+    color_continuous_scale="YlOrBr",
+    orientation="h",
+)
+
+benin_incidence_reshape_2022 = benin_incidence_reshape_2022.sort_values(
+    "Incidence Rate (per 1,000)", ascending=True
+)
+
+
+fig_benin_inci_2022_reg = px.bar(
+    benin_incidence_reshape_2022,
+    x="Incidence Rate (per 1,000)",
+    y="Administrative Region",
+    title="Incidence Rate per Administrative Region in Benin (2022)",
+    color="Incidence Rate (per 1,000)",
+    color_continuous_scale="YlOrBr",
+    orientation="h",
+)
+
+# I want to map the incidence rate value for each admin region to its shape for the year 2022
+
+# In order to do this I use admin1 boundaries
+
+import json
+
+with open("data/admininistrative-boundaries/bj (1).json", "r") as f:
+    benin_geojson = json.load(f)
+
+
+benin_incid_ = {
+    "ISO3": ["BEN"] * 12,
+    "Administrative Region": [
+        "Alibori",
+        "Atacora",
+        "Atlantique",
+        "Borgou",
+        "Collines",
+        "Couffo",
+        "Donga",
+        "Littoral",
+        "Mono",
+        "Oueme",
+        "Plateau",
+        "Zou",
+    ],
+    "Admin Level": ["admin1"] * 12,
+    "Year": [2022] * 12,
+    "Incidence Rate (per 1,000)": [
+        367,
+        373,
+        343,
+        390,
+        432,
+        387,
+        399,
+        283,
+        356,
+        322,
+        405,
+        390,
+    ],
+}
+
+df = pd.DataFrame(benin_incid_)
+
+region_id_map = {
+    "Alibori": 1,
+    "Atacora": 2,
+    "Atlantique": 3,
+    "Borgou": 4,
+    "Collines": 5,
+    "Couffo": 6,
+    "Donga": 7,
+    "Littoral": 8,
+    "Mono": 9,
+    "Oueme": 10,
+    "Plateau": 11,
+    "Zou": 12,
+}
+
+df["id"] = df["Administrative Region"].map(region_id_map)
+
+
+fig_1 = px.choropleth(
+    df,
+    geojson=benin_geojson,
+    locations="id",
+    featureidkey="id",
+    color="Incidence Rate (per 1,000)",
+    color_continuous_scale="Reds",
+    title="Incidence Rate by Administrative Region in Benin (2022)",
+    labels="Rate (per 1,000)",
+)
+
+```
+
+
+# Home
+
+## Row 1 {height=30%}
+
+
+::: {.valuebox color="#C8170C"}
+
+
+<div style="text-align: left;">
+<h3 style="color: #FFFFFF; font-size: 1.5em;margin-bottom: 15px;">Highest Malaria Incidence Rate (2022) </h3>
+  <img src="Images/benin_flag .png" 
+       alt="Benin Flag" 
+       style="width: 50px; height: auto; margin-bottom: 10px;">
+</div>
+
+<div class="valuebox-content">
+  <strong style="font-size: 1.5em; color: #FFFFFF;">
+    `{python} str(highest_incidence_rate_value)` (per 1,000)
+  </strong><br>
+  <span style="font-size: 1.4em; color: #FFFFFF;">
+    `{python} highest_incidence_rate`
+  </span>
+</div>
+:::
+
+::: {.valuebox color="#15780B"}
+
+
+<div style="text-align: left;">
+<h3 style="color: #FFFFFF; font-size: 1.5em;margin-bottom: 15px;"> Average Malaria Incidence Rate (2022) </h3>
+  <img src="Images/Africa_outline.png" 
+       alt="Africa Outline" 
+       style="width: 50px; height: auto; margin-bottom: 10px;">
+</div>
+
+<div class="valuebox-content">
+  <strong style="font-size: 1.5em;color: #FFFFFF;">`{python} str(average_incidence_rate_africa)` (per 1,000)</strong><br>
+  <span style="font-size: 1.4em; color: #FFFFFF; margin-top: 10px; display: block;">
+    African Continent
+  </span>
+</div>
+
+:::
+
+::: {.valuebox color="#700505"}
+
+
+<div style="text-align: left;">
+<h3 style="color: #FFFFFF; font-size: 1.5em;margin-bottom: 15px;">Highest Malaria Mortality Rate (2022) </h3>
+  <img src="Images/Burkina_flag .png" 
+       alt="Burkina Faso Flag" 
+       style="width: 50px; height: auto; margin-bottom: 10px;">
+</div>
+
+<div class="valuebox-content">
+  <strong style="font-size: 1.5em;color: #FFFFFF;">`{python} str(highest_mortality_rate_value)` (per 100,000)</strong><br>
+  <span style="font-size: 1.4em;color: #FFFFFF;">`{python} highest_mortality_rate`</span>
+</div>
+
+:::
+
+## Row 2 {height=55%}
+
+### Column {width=60%}
+
+
+```{python}
+
+fig_mort_map.update_layout(margin=dict(l=20, r=20, t=20, b=20))
+
+```
+
+### Column {width=50%}
+```{python}
+fig.update_layout(
+    xaxis=dict(dtick=1),
+    yaxis=dict(title="Average Incidence Rate (per 1,000)"),
+    title=dict(x=0.5),
+    hovermode="x",
+)
+
+```
+
+## Row 3 {height=10%}
+
+
+**Over the past decade, the African continent has experienced a steady decline in the average malaria incidence rate (per 1,000). In 2012, the average incidence rate stood at 206.3, decreasing by 28% to 161.3 by 2022. This reduction may be attributed, at least in part, to increased investments in preventive measures, such as the widespread use of insecticide-treated nets and other malaria control interventions.**
+
+# Subnational 1 (Burkina Faso)
+
+<div class="subtitle"style="font-weight: bold;">
+  Mortality Rate in Burkina Faso by Administrative Region Over 10 Years (2012-2022)
+</div>
+
+## Row 1 {height=50%}
+
+### Column {width=45%}
+```{python}
+fig_burkina_mort_2012
+```
+
+### Column {width=45%}
+
+```{python}
+fig_burkina_mort_2022
+```
+
+## Row 2
+
+ **In both 2012 and 2022, there are significant regional disparities in mortality rates across the country's administrative regions. While there is a decline in general mortality, some regions continue to show persistent high rates. In 2012, Centre-East, Centre-Sud, and Boucle du Mouhoun had the highest rates in the country, exceeding 300 deaths per 100,000. In 2012, all three regions were still amongst the highest in the country. This calls for targeted interventions in order to futher reduce death rates.** 
+ 
+
+
+# Subnational 2 (Benin)
+
+
+<div class="subtitle"style="font-weight: bold;">
+  Incidence Rate in Benin by Administrative Region Over 10 Years (2012-2022)
+</div>
+
+## Row 1 {height=50%}
+
+### Column {width=45%}
+```{python}
+fig_benin_inci_2012_reg
+```
+
+### Column {width=45%}
+
+```{python}
+fig_benin_inci_2022_reg
+```
+
+## Row 2 {height=50%}
+
+### Column {width=45%}
+
+```{python}
+fig_1.update_geos(
+    fitbounds="locations", visible=False, showframe=True, framecolor="black"
+)
+
+```
+
+### Column {width=40%}
+
+**In terms of incidence across Benin's 12 administrative regions, areas such as Alibori saw a notable 27% decrease, and in Donga cases dropped from 534 to 399 per 1,000. In regions like Collines and Plateau there were increases of 24% and 45%, respectively. Some regions, including Donga, Collines, and Borgou, continue with high rates of malaria.These areas are in need of focused efforts that include increased distribution of insecticide-treated nets (ITNs), better health-care services, and more effective environmental control measures that should help in brining down cases in then future.**
+
+# Water Access & Child Mortality  
+
+## Row 1 {height=60%}
+
+### Column {width=40%}
+
+```{python}
+fig_box_water.update_layout(showlegend=False)
+```
+
+### Column {width=60%}
+
+```{python}
+fig_bubble
+```
+
+## Row 2 {height=40%}
+
+### Column {width=50%}
+```{python}
+fig_top_mortality.update_traces(marker=dict(color="#EB1818"))
+```
+
+### Column {width=50%}
+
+```{python}
+fig_bottom_mortality.update_traces(marker=dict(color="#118203"))
+```
+
+
+# Data Tables
+
+## Row 1 {height=50%}
+
+### Column {width=50%}
+
+```{python}
+itables.show(malaria_reshaped, caption="Global Malaria Incidence & Mortality (2012-2022)", buttons=["csvHtml5"])
+```
+
+### Column {width=50%}
+
+```{python}
+itables.show(merged_data, caption="Water Access & Child Mortality(2012-2022)", buttons=["csvHtml5"])
+```
+
+## Row 2 {height=50%}
+
+### Column {width=50%}
+
+```{python}
+itables.show(burkina_mortality_reshape, caption="Burkina Faso Mortality Rate(2012-2022)", buttons=["csvHtml5"])
+```
+
+### Column {width=50%}
+
+```{python}
+itables.show(benin_incidence_reshape, caption="Benin Incidence Rate (2012-2022)", buttons=["csvHtml5"])
+```
+
+
+# Data Sources 
+
+**📊 Data Sources and Description**
+
+
+
+The data used to generate this report came from three primary data sources: **Gapminder**, **Malaria Atlas Project**, and **Our World in Data**. Each dataset is briefly described below, with details on the specific metrics used and links to their original sources.
+
+
+
+🌍 1. **Water Access Data** — Sourced from Gapminder
+Source: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene
+Timeframe: 2000–2022
+Description: This dataset measures the percentage of the population using at least basic drinking water services.
+Collection Method: Data was compiled by the WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation, and Hygiene.
+
+
+
+**Key Metric:**
+
+
+
+**Water Access** (%): Proportion of the population with access to at least basic drinking water services.
+
+More Information:[Gapminder Official Website](https://www.gapminder.org)
+
+👶 2. **Child Mortality Data** — Sourced from Our World in Data
+Source: Our World in Data
+Timeframe: Collected by the United Nations Inter-agency Group for Child Mortality Estimation (2024)
+Description: This dataset represents the estimated number of deaths of children under five years of age, per 100 live births.
+Collection Method: Data was primarily processed by Our World in Data based on estimates from the United Nations Inter-agency Group for Child Mortality Estimation (UN IGME).
+
+
+
+**Key Metric:**
+
+
+
+**Child Mortality** (Per 1,000): Estimated number of deaths of children under five years per 1,000 live births.
+Title of Original Dataset:
+
+***The estimated number of deaths of children aged under five years, per 100 live births***
+
+
+More Information: [UN IGME Official Website](https://childmortality.org)
+
+
+🦟 3. **Malaria Data** — Sourced from Malaria Atlas Project
+Source: Malaria Atlas Project (MAP)
+Timeframe: Data covers 2012–2022
+Description: This dataset focuses on malaria incidence, prevalence, and mortality rates caused by the Plasmodium falciparum parasite, the primary parasite responsible for malaria transmission.
+
+
+
+**Key Metrics Defined by MAP:**
+
+
+
+**Infection Prevalence**:
+*"The proportion of children aged 2 to 10 years showing, in a given year, detectable Plasmodium falciparum parasites."*
+
+
+**Incidence Rate**:
+*"The number of newly diagnosed Plasmodium falciparum cases per 1,000 population, on a given year."*
+
+
+**Mortality Rate**:
+*"The number of deaths from Plasmodium falciparum per 100,000 population during a defined year."*
+
+More Information: [Malaria Atlas Project Official Website](https://malariaatlas.org)  
